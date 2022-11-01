@@ -25,7 +25,8 @@ As humans, we are concerned with the safety, well-being, and health of ourselves
 ### Potential Benefits and Harm:
 **Benefits:** This research project may potentially help predict and thus better prevent future wildfires. With the relationships we devise from our analysis of our data sets, we hope more attention and awareness will be raised on the uptick of wildfires, and in general, climate change.
 
-**Harms:**This research project can potentially harm government officials, as people would become more aware of the crisis going on and will want change. Informing citizens will empower them with knowledge and in turn, citizens may apply more and more pressure on government officials to listen to them and make changes.
+**Harms:** This research project can potentially harm government officials, as people would become more aware of the crisis going on and will want change. Informing citizens will empower them with knowledge and in turn, citizens may apply more and more pressure on government officials to listen to them and make changes.
+
 ### Related Works and More Details
 
 **Wildfire Smoke Is Erasing Progress on Clean Air**
@@ -36,7 +37,7 @@ The Clean Air Act has aided in the improvement of air quality in Western U.S. fo
 https://www.epa.gov/wildfire-smoke-course/why-wildfire-smoke-health-concern
 Wildfire smokes are composed of a mixture of various pollutants and chemicals, with particulate matter being the main threat. Larger and more coarse particles are unable to enter the lungs and heart, thus unable to cause serious harm but they can irritate the eyes, nose,and throat. On the other hand, smaller, finer, particles can affect the lungs and heart, causing serious illness. There has been research done that links the increase risk in cardiovascular and respiratory diseases with more exposure to wildfire smoke.
 
-**Climate Scientist Warn of a ‘Global Fire Crisis’
+**Climate Scientist Warn of a ‘Global Fire Crisis’**
 https://www.nytimes.com/2022/02/23/climate/climate-change-un-wildfire-report.html
 According to a United Nations report, the risk of devastating wildfires will increase as climate change further intensifies. The United Nations report had named this the ‘global fire crisis’. It is estimated that with moderate global warming, the risk of catastrophic wildfires will increase by a third by 2050, and up to 52 percent by the end of the century.
 
