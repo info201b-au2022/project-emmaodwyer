@@ -1,9 +1,13 @@
 # The Effects of Climate Change on Wildfires and Air Quality
-Code name - wildfire
-Cole Meier | Jennifer Gomez | Emma O’Dwyer | Thanh Ly
-ctm41804@uw.edu |  jengomezwa@gmail.com  |  emmaod@uw.edu  |  thanhly3@uw.edu
-INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
-Autumn 2022
+**Code name** - Wildfire
+
+**Authors:** Cole Meier | Jennifer Gomez | Emma O’Dwyer | Thanh Ly
+
+**Contact:** ctm41804@uw.edu |  jngomez@uw.edu |  emmaod@uw.edu  |  thanhly3@uw.edu
+
+**Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
+
+**Date:** Autumn 2022
 
 ## Abstract:
 Our main question is how wildfires have been worsening over the past 40 years and what effect this is having on air quality. This topic is of interest to us since it is an area that has been increasingly more relevant to our daily lives with recent hazardous air quality warnings in and around Seattle. To address this question, we plan to look at nationwide data regarding the cause, location and severity of various US wildfires and the air quality in these locations on the associated dates.
