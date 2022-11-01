@@ -50,21 +50,11 @@ According to a United Nations report, the risk of devastating wildfires will inc
 
 ## Data Sets
 
-**Data Set #1:**
-- ***Name:*** U.S. Air Quality Data
-- ***Number of Rows:*** 5,617,325
-- ***Number of Columns:*** 15
-
-**Data Set #2:**
-- ***Name:*** U.S. Wildfire Data
-- ***Number of Rows:*** 55,367
-- ***Number of Columns:*** 43
-
-**Data Set #3:**
-- ***Name:*** Global Surface Temperature Data
-- ***Number of Rows:*** 117
-- ***Number of Columns:*** 2
-
+| Data File Name| Num of Rows | num of Cols |
+| ------------- | ----------- | ----------- |
+| U.S. Air Quality Data | 5,617,325 | 15 |
+| U.S. Wildfire Data | 55,367 | 43 |
+| Global Surface Temperature Data | 117 | 2 |
 
 **US Air Quality Data:**
 
@@ -87,7 +77,7 @@ We are focusing on two main datasets, one of which measures the air quality in e
 
 
 ## Expected Implications:
-The implications of our research questions are to educate the general population on the effects of climate change and show how much has really changed throughout the years. This helps people be aware of the effects and could be used as a tool to influence politicians into creating legislation to reduce the effects of climate change. Our research questions also educate people on the severity of wildfires and what has contributed to the growth in wildfires. They are encouraging policy makers to put more funding into wildfire prevention, to reduce their harmful and hazardous effects. We are also looking at the connection between wildfires and bad air quality, along with the connection of wildfires and climate change. This has possible implications for scientists and technologists to be able to aim their field of study to the prevention of climate change which in return could also help the prevention of wildfires and bad air quality. 
+The implications of our research questions are to educate the general population on the effects of climate change and show how much has really changed throughout the years. This helps people be aware of the effects and could be used as a tool to influence politicians into creating legislation to reduce the effects of climate change. Our research questions also educate people on the severity of wildfires and what has contributed to the growth in wildfires. They are encouraging policy makers to put more funding into wildfire prevention, to reduce their harmful and hazardous effects. We are also looking at the connection between wildfires and bad air quality, along with the connection of wildfires and climate change. This has possible implications for scientists and technologists to be able to aim their field of study to the prevention of climate change which in return could also help the prevention of wildfires and bad air quality.
 
 ## Limitations:
 One limitation that will need to be addressed is the air quality measurements. These daily measurements are taken only in one location for each state and so looking at larger states, such as Texas or California. This makes it harder to see the true scope of the effects of a wildfire and may not be able to be seen through these measurements if the wildfire affected area is far from the air quality measurement station. Another limitation that will need to be addressed is the size of the dataset. The datasets we are currently looking at are focused only on the U.S., yet they are still very large and may be difficult and time-consuming to clean and filter through as we try to pull the data from the dataset. This may force us to choose a small focus such as looking at specific states or a couple of states together only or taking a random sampling of the dataset.
