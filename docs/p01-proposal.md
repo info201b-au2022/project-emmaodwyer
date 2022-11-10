@@ -63,7 +63,8 @@ According to a United Nations report, the risk of devastating wildfires will inc
 
 **US Air Quality Data:**
 
-Reigada, C. (1980-2022). _US Air Quality 1980-Present_ [DataSet]. Kaggle. https://www.kaggle.com/datasets/383fd6c01526595f6446edb3a19352967a4343e2025ccdd40b40aa7b’6c241801j?select=US_AQI.csv
+Reigada, C. (1980-2022). _US Air Quality 1980-Present_ [DataSet]. Kaggle.
+https://www.kaggle.com/datasets/383fd6c01526595f6446edb3a19352967a4343e2025ccdd40b40aa7b6c241801?select=US_AQI.csv
 
 “AirData Website File Download Page.” EPA, Environmental Protection Agency, https://aqs.epa.gov/aqsweb/airdata/download_files.html.
 
@@ -87,5 +88,5 @@ The implications of our research questions are to educate the general population
 ## Limitations:
 One limitation that will need to be addressed is the air quality measurements. These daily measurements are taken only in one location for each state and so looking at larger states, such as Texas or California. This makes it harder to see the true scope of the effects of a wildfire and may not be able to be seen through these measurements if the wildfire affected area is far from the air quality measurement station. Another limitation that will need to be addressed is the size of the dataset. The datasets we are currently looking at are focused only on the U.S., yet they are still very large and may be difficult and time-consuming to clean and filter through as we try to pull the data from the dataset. This may force us to choose a small focus such as looking at specific states or a couple of states together only or taking a random sampling of the dataset.
 
-## Appendix A: Questions 
+## Appendix A: Questions
 No questions at the moment
