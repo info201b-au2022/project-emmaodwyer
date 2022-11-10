@@ -12,7 +12,7 @@
 ## Abstract:
 Our main question is how wildfires have been worsening over the past 40 years and what effect this is having on air quality. This topic is of interest to us since it is an area that has been increasingly more relevant to our daily lives with recent hazardous air quality warnings in and around Seattle. To address this question, we plan to look at nationwide data regarding the cause, location and severity of various US wildfires and the air quality in these locations on the associated dates.
 
-## KeyWords:
+## Keywords:
 ***Climate Change, Wildfires, Air Quality, Environment, Rising Temperatures***
 
 ## Introduction:
