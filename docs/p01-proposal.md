@@ -59,7 +59,7 @@ According to a United Nations report, the risk of devastating wildfires will inc
 | ------------- | ----------- | ----------- |
 | U.S. Air Quality Data | 5,617,325 | 15 |
 | U.S. Wildfire Data | 55,367 | 43 |
-| Global Surface Temperature Data | 117 | 2 |
+| Global Surface Temperature Data | 28 | 2 |
 
 **US Air Quality Data:**
 
