@@ -12,7 +12,7 @@
 ## Abstract:
 Our main question is how wildfires have been worsening over the past 40 years and what effect this is having on air quality. This topic is of interest to us since it is an area that has been increasingly more relevant to our daily lives with recent hazardous air quality warnings in and around Seattle. To address this question, we plan to look at nationwide data regarding the cause, location and severity of various US wildfires and the air quality in these locations on the associated dates.
 
-## Key Words:
+## Keywords:
 ***Climate Change, Wildfires, Air Quality, Environment, Rising Temperatures***
 
 ## Introduction:
@@ -27,7 +27,7 @@ With the rise of wildfires in the United States, air quality has been affected. 
 As humans, we are concerned with the safety, well-being, and health of ourselves, our loved ones, and the environment we live in. As students who believe in civic responsibility and environmental justice, this project allows us to play a role in protecting the world we live in through finding trends and building models on a topic that has long-lasting and severe consequences for us and for future generations.
 
 ### Potential Benefits and Harm:
-**Benefits:** This research project may potentially help predict and thus better prevent future wildfires. With the relationships we devise from our analysis of our data sets, we hope more attention and awareness will be raised on the uptick of wildfires, and in general, climate change.
+**Benefits:** This research project may potentially help predict and thus better prevent future wildfires. With the relationships we devise from our analysis of our datasets, we hope more attention and awareness will be raised on the uptick of wildfires, and in general, climate change.
 
 **Harms:** This research project can potentially harm government officials, as people would become more aware of the crisis going on and will want change. Informing citizens will empower them with knowledge and in turn, citizens may apply more and more pressure on government officials to listen to them and make changes.
 
@@ -53,17 +53,18 @@ According to a United Nations report, the risk of devastating wildfires will inc
 - **Does the cause of a wildfire impact how long or severe the wildfire will be?**  We are interested in answering this question in order to be able to better predict wildfires and their behavior. It would be interesting to find out whether wildfires sparked by natural or non-natural events have different trends.
 
 
-## Data Sets
+## DataSets
 
 | Data File Name| Num of Rows | num of Cols |
 | ------------- | ----------- | ----------- |
 | U.S. Air Quality Data | 5,617,325 | 15 |
 | U.S. Wildfire Data | 55,367 | 43 |
-| Global Surface Temperature Data | 117 | 2 |
+| Global Surface Temperature Data | 28 | 2 |
 
 **US Air Quality Data:**
 
-Reigada, C. (1980-2022). _US Air Quality 1980-Present_ [Data Set]. Kaggle. https://www.kaggle.com/datasets/383fd6c01526595f6446edb3a19352967a4343e2025ccdd40b40aa7b’6c241801j?select=US_AQI.csv
+Reigada, C. (1980-2022). _US Air Quality 1980-Present_ [DataSet]. Kaggle.
+https://www.kaggle.com/datasets/383fd6c01526595f6446edb3a19352967a4343e2025ccdd40b40aa7b6c241801?select=US_AQI.csv
 
 “AirData Website File Download Page.” EPA, Environmental Protection Agency, https://aqs.epa.gov/aqsweb/airdata/download_files.html.
 
@@ -76,9 +77,9 @@ U.S. Wildfire data (plus other attributes) | Kaggle
 
 **US Climate Change Data:**
 
-https://www.ncei.noaa.gov/cag/global/time-series/northAmerica/land/1/9/1910-2022
+https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/northAmerica/land/1/9/1992-2015
 
-We are focusing on two main datasets, one of which measures the air quality in each U.S. state every day over the last 40 years, a random sampling of ~50,000 U.S. wildfire samples combined with weather data from 1992-2015, and the last one is a sampling of global surface temperature anomalies dating back to 1910 with respect to average dating between 1910-2000. The wildfire dataset displays the cause of every fire documented, this allows us to document how the cause affects the intensity of the fire. Air quality and wildfire datasets will allow us to compare the air quality in areas affected by recent wildfire events. The wildfire and global surface temperature datasets allow us to compare the frequency of wildfires with the global warming connection. These datasets allow us to gather an analysis of climate change’s effect on wildfires and air quality for the general public's well-being. This issue has a direct connection with public health because poor air quality has been linked to an increase in respiratory issues. The intersectionality in our data sets allows us to determine our main question, how does the effect of climate change on wildfire frequency and intensity impact the air quality of the United States? The data from the U.S. air quality from 1980-present is the EPA’s raw data on air quality compiled into a consumable format by a Kaggle user by the name of Caleb Reigada. The dataset on U.S. wildfires is a compiled version of the U.S. Department of Agriculture data on wildfires, by a user by the name of CapCloudCoder. The third dataset for global surface temperatures is from the National Centers for Environmental Information. The collection of all the data comes from government-funded programs, all with the intention of the benefit of mankind's safety and health. The data is held and updated in government databases, this is filtered and brought down to the server and then extracted and sorted onto the Kaggle website. All the databases are from credible sources, they come from a variety of government-funded resources that employ thousands of scientists to accurately capture and update this data for public use. The only non-government-funded source is Kaggle, which is a reliable data science company that allows users to publish data sets and build various models. The U.S. wildfire and air quality data sets were obtained on Kaggle, and the global surface temperature data set was obtained directly on the National Centers of Environmental Information website. Both the interface in which the datasets were obtained and the source of the data have been credited in our study.
+We are focusing on two main datasets, one of which measures the air quality in each U.S. state every day over the last 40 years, a random sampling of ~50,000 U.S. wildfire samples combined with weather data from 1992-2015, and the last one is a sampling of global surface temperature anomalies dating back to 1910 with respect to average dating between 1910-2000. The wildfire dataset displays the cause of every fire documented, this allows us to document how the cause affects the intensity of the fire. Air quality and wildfire datasets will allow us to compare the air quality in areas affected by recent wildfire events. The wildfire and global surface temperature datasets allow us to compare the frequency of wildfires with the global warming connection. These datasets allow us to gather an analysis of climate change’s effect on wildfires and air quality for the general public's well-being. This issue has a direct connection with public health because poor air quality has been linked to an increase in respiratory issues. The intersectionality in our datasets allows us to determine our main question, how does the effect of climate change on wildfire frequency and intensity impact the air quality of the United States? The data from the U.S. air quality from 1980-present is the EPA’s raw data on air quality compiled into a consumable format by a Kaggle user by the name of Caleb Reigada. The dataset on U.S. wildfires is a compiled version of the U.S. Department of Agriculture data on wildfires, by a user by the name of CapCloudCoder. The third dataset for global surface temperatures is from the National Centers for Environmental Information. The collection of all the data comes from government-funded programs, all with the intention of the benefit of mankind's safety and health. The data is held and updated in government databases, this is filtered and brought down to the server and then extracted and sorted onto the Kaggle website. All the databases are from credible sources, they come from a variety of government-funded resources that employ thousands of scientists to accurately capture and update this data for public use. The only non-government-funded source is Kaggle, which is a reliable data science company that allows users to publish datasets and build various models. The U.S. wildfire and air quality datasets were obtained on Kaggle, and the global surface temperature dataset was obtained directly on the National Centers of Environmental Information website. Both the interface in which the datasets were obtained and the source of the data have been credited in our study.
 
 
 ## Expected Implications:
@@ -86,3 +87,6 @@ The implications of our research questions are to educate the general population
 
 ## Limitations:
 One limitation that will need to be addressed is the air quality measurements. These daily measurements are taken only in one location for each state and so looking at larger states, such as Texas or California. This makes it harder to see the true scope of the effects of a wildfire and may not be able to be seen through these measurements if the wildfire affected area is far from the air quality measurement station. Another limitation that will need to be addressed is the size of the dataset. The datasets we are currently looking at are focused only on the U.S., yet they are still very large and may be difficult and time-consuming to clean and filter through as we try to pull the data from the dataset. This may force us to choose a small focus such as looking at specific states or a couple of states together only or taking a random sampling of the dataset.
+
+## Appendix A: Questions
+No questions at the moment
