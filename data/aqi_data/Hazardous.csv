@@ -1,579 +1,579 @@
-Date,AQI,city_ascii,state_id,state_name
-2015-04-14,523,Bishop,CA,California
-2015-08-14,485,Kennewick,WA,Washington
-2015-08-23,302,Lewiston,ID,Idaho
-2015-03-05,676,Phoenix,AZ,Arizona
-2015-03-06,881,Phoenix,AZ,Arizona
-2015-03-07,881,Phoenix,AZ,Arizona
-2015-03-08,881,Phoenix,AZ,Arizona
-2015-03-09,881,Phoenix,AZ,Arizona
-2015-03-10,881,Phoenix,AZ,Arizona
-2015-03-11,514,Phoenix,AZ,Arizona
-2014-10-14,307,Bakersfield,CA,California
-2014-03-17,443,Bishop,CA,California
-2014-05-10,473,Bishop,CA,California
-2014-12-31,911,Bishop,CA,California
-2014-05-06,317,El Centro,CA,California
-2014-11-01,359,El Centro,CA,California
-2014-04-26,455,Las Cruces,NM,New Mexico
-2014-05-02,417,Phoenix,AZ,Arizona
-2014-07-03,436,Phoenix,AZ,Arizona
-2014-07-08,825,Phoenix,AZ,Arizona
-2014-10-16,881,Phoenix,AZ,Arizona
-2014-10-17,881,Phoenix,AZ,Arizona
-2014-10-18,881,Phoenix,AZ,Arizona
-2014-10-19,881,Phoenix,AZ,Arizona
-2014-10-20,881,Phoenix,AZ,Arizona
-2014-10-21,524,Phoenix,AZ,Arizona
-2014-12-25,881,Phoenix,AZ,Arizona
-2014-12-26,881,Phoenix,AZ,Arizona
-2014-12-28,334,Phoenix,AZ,Arizona
-2014-02-22,850,Reno,NV,Nevada
-2014-02-23,891,Reno,NV,Nevada
-2014-02-24,891,Reno,NV,Nevada
-2014-02-25,891,Reno,NV,Nevada
-2014-02-26,523,Reno,NV,Nevada
-2014-03-26,537,Riverside,CA,California
-2013-02-20,425,Bishop,CA,California
-2013-03-06,329,Bishop,CA,California
-2013-02-24,386,Deming,NM,New Mexico
-2013-04-17,556,Deming,NM,New Mexico
-2013-05-02,307,Deming,NM,New Mexico
-2013-07-28,350,Grants Pass,OR,Oregon
-2013-07-31,327,Grants Pass,OR,Oregon
-2013-11-02,515,Kennewick,WA,Washington
-2013-02-20,305,Las Cruces,NM,New Mexico
-2013-02-24,458,Las Cruces,NM,New Mexico
-2013-04-08,411,Las Cruces,NM,New Mexico
-2013-04-09,379,Las Cruces,NM,New Mexico
-2013-04-17,452,Las Cruces,NM,New Mexico
-2013-04-08,406,Phoenix,AZ,Arizona
-2013-06-30,902,Phoenix,AZ,Arizona
-2013-11-13,310,Phoenix,AZ,Arizona
-2013-01-01,895,Reno,NV,Nevada
-2013-01-02,895,Reno,NV,Nevada
-2013-01-03,895,Reno,NV,Nevada
-2013-01-04,895,Reno,NV,Nevada
-2013-01-05,895,Reno,NV,Nevada
-2013-01-06,895,Reno,NV,Nevada
-2013-01-07,895,Reno,NV,Nevada
-2013-01-08,895,Reno,NV,Nevada
-2013-01-09,606,Reno,NV,Nevada
-2013-02-01,608,Reno,NV,Nevada
-2013-02-02,895,Reno,NV,Nevada
-2013-02-03,895,Reno,NV,Nevada
-2013-02-04,895,Reno,NV,Nevada
-2013-02-05,565,Reno,NV,Nevada
-2013-04-15,455,Riverside,CA,California
-2013-10-28,375,Riverside,CA,California
-2013-03-17,310,Rock Springs,WY,Wyoming
-2013-05-04,617,San Diego,CA,California
-2013-04-09,312,Tucson,AZ,Arizona
-2013-04-08,536,Yuma,AZ,Arizona
-2012-09-18,546,Bend,OR,Oregon
-2012-09-19,463,Bend,OR,Oregon
-2012-09-20,446,Bend,OR,Oregon
-2012-09-21,401,Bend,OR,Oregon
-2012-03-06,1431,Bishop,CA,California
-2012-03-07,413,Bishop,CA,California
-2012-03-31,630,Bishop,CA,California
-2012-05-25,3812,Bishop,CA,California
-2012-06-04,580,Bishop,CA,California
-2012-06-23,489,Bishop,CA,California
-2012-11-30,607,Bishop,CA,California
-2012-12-02,776,Bishop,CA,California
-2012-03-07,994,Deming,NM,New Mexico
-2012-03-18,542,Deming,NM,New Mexico
-2012-04-14,823,Deming,NM,New Mexico
-2012-03-18,643,El Paso,TX,Texas
-2012-04-14,539,El Paso,TX,Texas
-2012-03-07,552,Las Cruces,NM,New Mexico
-2012-03-18,1635,Las Cruces,NM,New Mexico
-2012-04-14,857,Las Cruces,NM,New Mexico
-2012-04-26,350,Las Cruces,NM,New Mexico
-2012-11-10,356,Las Cruces,NM,New Mexico
-2012-12-09,315,Las Cruces,NM,New Mexico
-2012-06-16,594,Phoenix,AZ,Arizona
-2012-06-27,400,Phoenix,AZ,Arizona
-2012-09-02,384,Phoenix,AZ,Arizona
-2012-09-06,509,Phoenix,AZ,Arizona
-2012-12-24,480,Reno,NV,Nevada
-2012-12-25,895,Reno,NV,Nevada
-2012-12-26,895,Reno,NV,Nevada
-2012-12-27,895,Reno,NV,Nevada
-2012-12-28,895,Reno,NV,Nevada
-2012-12-29,895,Reno,NV,Nevada
-2012-12-30,895,Reno,NV,Nevada
-2012-12-31,895,Reno,NV,Nevada
-2012-09-28,347,Wenatchee,WA,Washington
-2011-02-05,810,Bishop,CA,California
-2011-02-08,676,Bishop,CA,California
-2011-02-16,833,Bishop,CA,California
-2011-05-25,650,Bishop,CA,California
-2011-11-30,675,Bishop,CA,California
-2011-12-01,13276,Bishop,CA,California
-2011-03-07,610,Deming,NM,New Mexico
-2011-04-09,394,Deming,NM,New Mexico
-2011-04-26,360,Deming,NM,New Mexico
-2011-02-27,352,Las Cruces,NM,New Mexico
-2011-03-07,354,Las Cruces,NM,New Mexico
-2011-04-26,786,Las Cruces,NM,New Mexico
-2011-11-05,306,Las Cruces,NM,New Mexico
-2011-07-02,367,Phoenix,AZ,Arizona
-2011-07-05,2212,Phoenix,AZ,Arizona
-2011-07-17,397,Phoenix,AZ,Arizona
-2011-07-18,1534,Phoenix,AZ,Arizona
-2011-07-24,1072,Phoenix,AZ,Arizona
-2011-07-31,532,Phoenix,AZ,Arizona
-2011-08-03,354,Phoenix,AZ,Arizona
-2011-08-18,627,Phoenix,AZ,Arizona
-2011-08-25,960,Phoenix,AZ,Arizona
-2011-09-02,484,Phoenix,AZ,Arizona
-2011-09-10,597,Phoenix,AZ,Arizona
-2011-10-04,471,Phoenix,AZ,Arizona
-2011-11-04,1057,Phoenix,AZ,Arizona
-2011-08-28,320,Riverside,CA,California
-2010-03-09,462,Bishop,CA,California
-2010-03-13,1120,Bishop,CA,California
-2010-03-18,1204,Bishop,CA,California
-2010-03-23,390,Bishop,CA,California
-2010-03-30,1963,Bishop,CA,California
-2010-03-31,608,Bishop,CA,California
-2010-04-04,2415,Bishop,CA,California
-2010-04-11,4466,Bishop,CA,California
-2010-04-20,1550,Bishop,CA,California
-2010-04-27,1333,Bishop,CA,California
-2010-05-27,1679,Bishop,CA,California
-2010-03-26,415,Deming,NM,New Mexico
-2010-12-30,420,Deming,NM,New Mexico
-2010-03-26,485,Las Cruces,NM,New Mexico
-2010-04-01,451,Las Cruces,NM,New Mexico
-2010-04-29,500,Las Cruces,NM,New Mexico
-2010-12-30,671,Las Cruces,NM,New Mexico
-2010-01-21,1657,Phoenix,AZ,Arizona
-2010-05-02,391,Phoenix,AZ,Arizona
-2010-03-30,501,Salt Lake City,UT,Utah
-2009-03-01,1402,Bishop,CA,California
-2009-03-03,356,Bishop,CA,California
-2009-03-22,345,Bishop,CA,California
-2009-03-29,546,Bishop,CA,California
-2009-04-14,1302,Bishop,CA,California
-2009-05-18,331,Bishop,CA,California
-2009-12-22,349,Bishop,CA,California
-2009-08-05,330,Fairbanks,AK,Alaska
-2009-07-17,1341,Phoenix,AZ,Arizona
-2009-07-18,337,Phoenix,AZ,Arizona
-2009-08-28,369,Phoenix,AZ,Arizona
-2009-09-03,302,Phoenix,AZ,Arizona
-2009-10-27,694,Phoenix,AZ,Arizona
-2009-12-22,783,Phoenix,AZ,Arizona
-2009-09-04,354,Rapid City,SD,South Dakota
-2008-02-13,589,Bishop,CA,California
-2008-04-14,529,Bishop,CA,California
-2008-04-30,394,Bishop,CA,California
-2008-10-10,710,Bishop,CA,California
-2008-03-16,765,Deming,NM,New Mexico
-2008-04-27,755,Deming,NM,New Mexico
-2008-05-21,929,Deming,NM,New Mexico
-2008-03-14,420,Las Cruces,NM,New Mexico
-2008-04-09,337,Las Cruces,NM,New Mexico
-2008-04-10,332,Las Cruces,NM,New Mexico
-2008-03-13,317,Phoenix,AZ,Arizona
-2008-03-21,435,Phoenix,AZ,Arizona
-2008-03-25,391,Phoenix,AZ,Arizona
-2008-04-04,315,Phoenix,AZ,Arizona
-2008-05-21,505,Phoenix,AZ,Arizona
-2008-11-09,424,Phoenix,AZ,Arizona
-2008-04-30,322,Riverside,CA,California
-2007-01-21,391,Bishop,CA,California
-2007-06-05,623,Bishop,CA,California
-2007-10-21,381,Los Angeles,CA,California
-2007-03-06,309,Phoenix,AZ,Arizona
-2007-03-08,390,Phoenix,AZ,Arizona
-2007-03-11,432,Phoenix,AZ,Arizona
-2007-03-12,472,Phoenix,AZ,Arizona
-2007-03-15,909,Phoenix,AZ,Arizona
-2007-03-18,407,Phoenix,AZ,Arizona
-2007-03-20,549,Phoenix,AZ,Arizona
-2007-03-27,415,Phoenix,AZ,Arizona
-2007-04-12,655,Phoenix,AZ,Arizona
-2007-04-28,421,Phoenix,AZ,Arizona
-2007-05-01,2148,Phoenix,AZ,Arizona
-2007-05-08,312,Phoenix,AZ,Arizona
-2007-06-06,305,Phoenix,AZ,Arizona
-2007-06-07,387,Phoenix,AZ,Arizona
-2007-06-17,382,Phoenix,AZ,Arizona
-2007-06-30,320,Phoenix,AZ,Arizona
-2007-07-06,417,Phoenix,AZ,Arizona
-2007-07-19,1734,Phoenix,AZ,Arizona
-2007-08-16,865,Phoenix,AZ,Arizona
-2007-10-06,399,Phoenix,AZ,Arizona
-2007-10-10,376,Phoenix,AZ,Arizona
-2007-10-11,432,Phoenix,AZ,Arizona
-2007-10-25,422,Phoenix,AZ,Arizona
-2007-10-26,301,Phoenix,AZ,Arizona
-2007-10-21,1108,Riverside,CA,California
-2007-10-13,326,Tallahassee,FL,Florida
-2006-01-18,6234,Bishop,CA,California
-2006-01-22,1818,Bishop,CA,California
-2006-01-23,1588,Bishop,CA,California
-2006-01-31,2433,Bishop,CA,California
-2006-02-14,2799,Bishop,CA,California
-2006-02-15,8195,Bishop,CA,California
-2006-03-25,873,Bishop,CA,California
-2006-11-11,457,Bishop,CA,California
-2006-11-29,747,Bishop,CA,California
-2006-12-28,1996,Bishop,CA,California
-2006-06-21,455,El Paso,TX,Texas
-2006-11-14,608,El Paso,TX,Texas
-2006-11-30,394,Laredo,TX,Texas
-2006-06-21,361,Las Cruces,NM,New Mexico
-2006-11-14,396,Las Cruces,NM,New Mexico
-2006-12-28,455,Pahrump,NV,Nevada
-2006-02-12,366,Phoenix,AZ,Arizona
-2006-02-15,310,Phoenix,AZ,Arizona
-2006-03-07,342,Phoenix,AZ,Arizona
-2006-03-08,411,Phoenix,AZ,Arizona
-2006-03-10,352,Phoenix,AZ,Arizona
-2006-04-14,623,Phoenix,AZ,Arizona
-2006-04-21,409,Phoenix,AZ,Arizona
-2006-05-05,307,Phoenix,AZ,Arizona
-2006-05-22,381,Phoenix,AZ,Arizona
-2006-05-23,345,Phoenix,AZ,Arizona
-2006-05-24,553,Phoenix,AZ,Arizona
-2006-06-06,809,Phoenix,AZ,Arizona
-2006-06-16,427,Phoenix,AZ,Arizona
-2006-06-25,659,Phoenix,AZ,Arizona
-2006-06-26,306,Phoenix,AZ,Arizona
-2006-09-17,403,Phoenix,AZ,Arizona
-2006-09-21,690,Phoenix,AZ,Arizona
-2006-09-25,547,Phoenix,AZ,Arizona
-2006-09-28,812,Phoenix,AZ,Arizona
-2006-09-29,974,Phoenix,AZ,Arizona
-2006-09-30,374,Phoenix,AZ,Arizona
-2006-10-01,351,Phoenix,AZ,Arizona
-2006-10-02,329,Phoenix,AZ,Arizona
-2006-10-08,405,Phoenix,AZ,Arizona
-2006-10-20,645,Phoenix,AZ,Arizona
-2006-10-21,369,Phoenix,AZ,Arizona
-2006-10-23,367,Phoenix,AZ,Arizona
-2006-11-03,532,Phoenix,AZ,Arizona
-2006-11-06,435,Phoenix,AZ,Arizona
-2006-11-07,536,Phoenix,AZ,Arizona
-2006-11-16,605,Phoenix,AZ,Arizona
-2006-11-17,319,Phoenix,AZ,Arizona
-2006-11-18,369,Phoenix,AZ,Arizona
-2006-11-21,404,Phoenix,AZ,Arizona
-2006-11-29,361,Phoenix,AZ,Arizona
-2006-12-05,307,Phoenix,AZ,Arizona
-2006-12-06,422,Phoenix,AZ,Arizona
-2006-02-15,344,Rock Springs,WY,Wyoming
-2005-01-30,522,Bishop,CA,California
-2005-02-01,331,Bishop,CA,California
-2005-03-13,2699,Bishop,CA,California
-2005-03-14,3884,Bishop,CA,California
-2005-04-19,675,Bishop,CA,California
-2005-05-29,743,Bishop,CA,California
-2005-05-30,774,Bishop,CA,California
-2005-06-02,3434,Bishop,CA,California
-2005-06-03,666,Bishop,CA,California
-2005-06-17,1337,Bishop,CA,California
-2005-11-25,481,Bishop,CA,California
-2005-12-25,775,Bishop,CA,California
-2005-08-12,486,Kennewick,WA,Washington
-2005-11-27,874,Las Cruces,NM,New Mexico
-2004-04-27,501,Anchorage,AK,Alaska
-2004-01-31,637,Bishop,CA,California
-2004-02-07,468,Bishop,CA,California
-2004-02-09,582,Bishop,CA,California
-2004-02-10,499,Bishop,CA,California
-2004-02-18,709,Bishop,CA,California
-2004-03-10,4367,Bishop,CA,California
-2004-03-25,3218,Bishop,CA,California
-2004-04-01,1797,Bishop,CA,California
-2004-04-02,5121,Bishop,CA,California
-2004-04-22,3191,Bishop,CA,California
-2004-04-28,1137,Bishop,CA,California
-2004-05-10,2110,Bishop,CA,California
-2004-05-11,1164,Bishop,CA,California
-2004-10-18,356,Bishop,CA,California
-2004-11-21,4021,Bishop,CA,California
-2004-11-22,564,Bishop,CA,California
-2004-11-27,2011,Bishop,CA,California
-2004-11-28,446,Bishop,CA,California
-2004-12-21,1270,Bishop,CA,California
-2004-12-23,677,Bishop,CA,California
-2004-06-29,420,Fairbanks,AK,Alaska
-2004-06-30,503,Fairbanks,AK,Alaska
-2004-07-02,479,Fairbanks,AK,Alaska
-2004-08-20,377,Fairbanks,AK,Alaska
-2004-08-21,420,Fairbanks,AK,Alaska
-2004-08-23,386,Fairbanks,AK,Alaska
-2004-01-01,521,Gillette,WY,Wyoming
-2004-03-06,314,Gillette,WY,Wyoming
-2004-04-27,435,Kennewick,WA,Washington
-2004-02-19,1006,Las Cruces,NM,New Mexico
-2004-08-13,385,Phoenix,AZ,Arizona
-2004-11-30,412,Rock Springs,WY,Wyoming
-2003-03-12,486,Anchorage,AK,Alaska
-2003-01-05,1113,Bishop,CA,California
-2003-01-06,312,Bishop,CA,California
-2003-02-01,1064,Bishop,CA,California
-2003-02-02,16515,Bishop,CA,California
-2003-02-04,3481,Bishop,CA,California
-2003-02-05,2296,Bishop,CA,California
-2003-02-20,2161,Bishop,CA,California
-2003-03-13,1264,Bishop,CA,California
-2003-03-14,1105,Bishop,CA,California
-2003-03-17,1532,Bishop,CA,California
-2003-03-18,6488,Bishop,CA,California
-2003-03-27,2223,Bishop,CA,California
-2003-03-28,1926,Bishop,CA,California
-2003-04-12,426,Bishop,CA,California
-2003-04-18,568,Bishop,CA,California
-2003-05-14,2416,Bishop,CA,California
-2003-06-23,374,Bishop,CA,California
-2003-07-22,874,Bishop,CA,California
-2003-10-30,736,El Centro,CA,California
-2003-02-02,361,El Paso,TX,Texas
-2003-04-15,615,El Paso,TX,Texas
-2003-11-22,1032,El Paso,TX,Texas
-2003-12-26,408,El Paso,TX,Texas
-2003-10-28,1334,Kennewick,WA,Washington
-2003-11-22,1005,Las Cruces,NM,New Mexico
-2003-12-15,400,Las Cruces,NM,New Mexico
-2003-12-26,344,Las Cruces,NM,New Mexico
-2003-10-28,1234,Walla Walla,WA,Washington
-2002-04-26,413,Albuquerque,NM,New Mexico
-2002-06-01,324,Albuquerque,NM,New Mexico
-2002-01-09,1068,Bishop,CA,California
-2002-01-19,1005,Bishop,CA,California
-2002-01-22,766,Bishop,CA,California
-2002-01-29,507,Bishop,CA,California
-2002-02-23,418,Bishop,CA,California
-2002-02-28,2421,Bishop,CA,California
-2002-03-01,7811,Bishop,CA,California
-2002-03-06,863,Bishop,CA,California
-2002-03-10,1400,Bishop,CA,California
-2002-03-13,867,Bishop,CA,California
-2002-03-18,995,Bishop,CA,California
-2002-04-14,449,Bishop,CA,California
-2002-04-15,2191,Bishop,CA,California
-2002-04-16,680,Bishop,CA,California
-2002-04-17,6967,Bishop,CA,California
-2002-04-18,507,Bishop,CA,California
-2002-05-07,753,Bishop,CA,California
-2002-05-10,1566,Bishop,CA,California
-2002-05-19,355,Bishop,CA,California
-2002-06-08,1550,Bishop,CA,California
-2002-06-09,2858,Bishop,CA,California
-2002-10-02,686,Bishop,CA,California
-2002-11-07,367,Bishop,CA,California
-2002-11-25,2533,Bishop,CA,California
-2002-11-26,1681,Bishop,CA,California
-2002-12-31,705,Bishop,CA,California
-2002-03-14,429,El Paso,TX,Texas
-2002-04-26,485,El Paso,TX,Texas
-2002-04-15,431,Las Vegas,NV,Nevada
-2002-08-14,418,Riverside,CA,California
-2002-08-15,335,Riverside,CA,California
-2001-01-16,1940,Bishop,CA,California
-2001-01-27,561,Bishop,CA,California
-2001-02-06,5020,Bishop,CA,California
-2001-02-07,10856,Bishop,CA,California
-2001-02-08,12056,Bishop,CA,California
-2001-02-27,460,Bishop,CA,California
-2001-02-28,768,Bishop,CA,California
-2001-03-10,646,Bishop,CA,California
-2001-03-26,433,Bishop,CA,California
-2001-03-29,718,Bishop,CA,California
-2001-04-01,2626,Bishop,CA,California
-2001-04-02,362,Bishop,CA,California
-2001-04-10,3415,Bishop,CA,California
-2001-04-11,1819,Bishop,CA,California
-2001-04-12,889,Bishop,CA,California
-2001-04-19,1365,Bishop,CA,California
-2001-04-20,685,Bishop,CA,California
-2001-04-21,434,Bishop,CA,California
-2001-05-02,20646,Bishop,CA,California
-2001-05-03,4026,Bishop,CA,California
-2001-05-21,355,Bishop,CA,California
-2001-05-28,446,Bishop,CA,California
-2001-06-01,1413,Bishop,CA,California
-2001-06-03,978,Bishop,CA,California
-2001-06-04,2542,Bishop,CA,California
-2001-06-13,3808,Bishop,CA,California
-2001-10-12,1039,Bishop,CA,California
-2001-11-22,1091,Bishop,CA,California
-2001-12-09,350,Bishop,CA,California
-2001-12-10,3198,Bishop,CA,California
-2001-12-14,3436,Bishop,CA,California
-2001-12-15,841,Bishop,CA,California
-2001-08-17,543,El Centro,CA,California
-2001-04-10,379,El Paso,TX,Texas
-2001-12-20,506,Joplin,MO,Missouri
-2001-02-18,314,Medford,OR,Oregon
-2001-08-17,500,Riverside,CA,California
-2000-01-26,315,Bishop,CA,California
-2000-02-14,424,Bishop,CA,California
-2000-03-20,10446,Bishop,CA,California
-2000-03-21,3065,Bishop,CA,California
-2000-03-30,1819,Bishop,CA,California
-2000-03-31,1503,Bishop,CA,California
-2000-04-08,410,Bishop,CA,California
-2000-04-10,316,Bishop,CA,California
-2000-04-28,1246,Bishop,CA,California
-2000-04-29,2420,Bishop,CA,California
-2000-05-10,1305,Bishop,CA,California
-2000-05-11,2974,Bishop,CA,California
-2000-06-08,873,Bishop,CA,California
-2000-10-21,3350,Bishop,CA,California
-2000-10-22,10736,Bishop,CA,California
-2000-11-06,740,Bishop,CA,California
-2000-11-07,1162,Bishop,CA,California
-2000-11-09,361,Bishop,CA,California
-2000-11-29,997,Bishop,CA,California
-2000-12-24,693,Bishop,CA,California
-2000-12-25,444,Bishop,CA,California
-2000-05-10,404,Las Vegas,NV,Nevada
-1999-02-25,1806,Bishop,CA,California
-1999-03-09,1286,Bishop,CA,California
-1999-04-05,2465,Bishop,CA,California
-1999-04-22,623,Bishop,CA,California
-1999-06-02,410,Bishop,CA,California
-1999-09-22,354,Bishop,CA,California
-1999-10-06,521,Bishop,CA,California
-1999-10-16,892,Bishop,CA,California
-1999-11-21,2797,Bishop,CA,California
-1999-12-02,425,Bishop,CA,California
-1999-12-07,540,Bishop,CA,California
-1999-03-31,322,Las Vegas,NV,Nevada
-1999-03-31,390,Montrose,CO,Colorado
-1999-09-25,489,Pocatello,ID,Idaho
-1998-01-02,360,Bishop,CA,California
-1998-04-13,486,Bishop,CA,California
-1998-05-09,493,Bishop,CA,California
-1998-05-16,1360,Bishop,CA,California
-1998-11-17,357,Bishop,CA,California
-1998-12-03,559,Bishop,CA,California
-1998-02-24,928,Las Cruces,NM,New Mexico
-1998-03-07,347,Las Cruces,NM,New Mexico
-1998-03-26,1373,Las Cruces,NM,New Mexico
-1998-04-12,415,Las Cruces,NM,New Mexico
-1997-02-12,416,Bishop,CA,California
-1997-02-13,662,Bishop,CA,California
-1997-03-31,305,Bishop,CA,California
-1997-12-19,2125,Bishop,CA,California
-1997-12-22,1158,Bishop,CA,California
-1997-10-07,428,El Centro,CA,California
-1997-01-12,490,Las Cruces,NM,New Mexico
-1997-02-24,1160,Las Cruces,NM,New Mexico
-1997-02-28,334,Las Cruces,NM,New Mexico
-1997-04-10,342,Las Cruces,NM,New Mexico
-1997-04-24,553,Las Cruces,NM,New Mexico
-1997-09-20,377,Las Cruces,NM,New Mexico
-1997-07-09,370,Phoenix,AZ,Arizona
-1997-01-02,310,West Plains,MO,Missouri
-1997-01-03,608,West Plains,MO,Missouri
-1997-01-20,347,West Plains,MO,Missouri
-1997-02-17,425,West Plains,MO,Missouri
-1997-02-18,574,West Plains,MO,Missouri
-1997-03-24,311,West Plains,MO,Missouri
-1997-03-27,552,West Plains,MO,Missouri
-1997-04-02,372,West Plains,MO,Missouri
-1997-04-03,371,West Plains,MO,Missouri
-1997-04-04,421,West Plains,MO,Missouri
-1997-04-05,399,West Plains,MO,Missouri
-1997-04-15,384,West Plains,MO,Missouri
-1997-04-18,501,West Plains,MO,Missouri
-1997-04-29,590,West Plains,MO,Missouri
-1997-05-07,474,West Plains,MO,Missouri
-1996-03-22,630,Bishop,CA,California
-1996-03-28,758,Bishop,CA,California
-1996-04-27,553,Bishop,CA,California
-1996-04-28,2279,Bishop,CA,California
-1996-05-15,460,Bishop,CA,California
-1996-05-16,417,Bishop,CA,California
-1996-11-29,606,Bishop,CA,California
-1996-03-20,504,Chicago,IL,Illinois
-1996-01-17,432,El Paso,TX,Texas
-1996-01-17,1410,Las Cruces,NM,New Mexico
-1996-02-11,366,Las Cruces,NM,New Mexico
-1996-03-13,381,Las Cruces,NM,New Mexico
-1996-03-23,698,Las Cruces,NM,New Mexico
-1996-03-29,427,Las Cruces,NM,New Mexico
-1996-08-13,337,Philadelphia,PA,Pennsylvania
-1996-12-31,321,Pocatello,ID,Idaho
-1996-04-27,672,West Plains,MO,Missouri
-1996-04-30,354,West Plains,MO,Missouri
-1996-05-02,623,West Plains,MO,Missouri
-1996-05-04,750,West Plains,MO,Missouri
-1996-05-09,1112,West Plains,MO,Missouri
-1996-05-10,1065,West Plains,MO,Missouri
-1996-05-15,1608,West Plains,MO,Missouri
-1996-05-16,640,West Plains,MO,Missouri
-1996-06-29,405,West Plains,MO,Missouri
-1996-07-04,506,West Plains,MO,Missouri
-1996-07-05,957,West Plains,MO,Missouri
-1996-07-18,808,West Plains,MO,Missouri
-1996-07-19,459,West Plains,MO,Missouri
-1996-07-24,437,West Plains,MO,Missouri
-1996-08-05,1217,West Plains,MO,Missouri
-1996-08-06,355,West Plains,MO,Missouri
-1996-08-07,365,West Plains,MO,Missouri
-1996-08-14,667,West Plains,MO,Missouri
-1996-08-19,736,West Plains,MO,Missouri
-1996-08-22,377,West Plains,MO,Missouri
-1996-09-19,658,West Plains,MO,Missouri
-1996-09-26,365,West Plains,MO,Missouri
-1996-10-01,809,West Plains,MO,Missouri
-1996-10-15,640,West Plains,MO,Missouri
-1996-10-21,417,West Plains,MO,Missouri
-1996-10-29,1107,West Plains,MO,Missouri
-1996-11-04,654,West Plains,MO,Missouri
-1996-12-09,509,West Plains,MO,Missouri
-1996-12-14,461,West Plains,MO,Missouri
-1996-12-20,390,West Plains,MO,Missouri
-1996-12-21,615,West Plains,MO,Missouri
-1996-12-27,743,West Plains,MO,Missouri
-1996-12-28,524,West Plains,MO,Missouri
-1995-02-13,3779,Bishop,CA,California
-1995-03-03,561,Bishop,CA,California
-1995-03-21,2100,Bishop,CA,California
-1995-04-01,454,Bishop,CA,California
-1995-04-08,588,Bishop,CA,California
-1995-04-09,2148,Bishop,CA,California
-1995-04-12,2564,Bishop,CA,California
-1995-04-13,3825,Bishop,CA,California
-1995-04-27,337,Bishop,CA,California
-1995-06-05,320,Bishop,CA,California
-1995-06-06,714,Bishop,CA,California
-1995-12-12,996,Bishop,CA,California
-1995-04-17,498,Lubbock,TX,Texas
-1995-05-07,397,Lubbock,TX,Texas
-1994-02-17,1277,Bishop,CA,California
-1994-03-18,1122,Bishop,CA,California
-1994-03-22,857,Bishop,CA,California
-1994-04-23,468,Bishop,CA,California
-1994-12-12,576,Bishop,CA,California
-1994-11-26,382,Las Cruces,NM,New Mexico
-1994-11-16,427,Philadelphia,PA,Pennsylvania
-1993-01-01,677,Bishop,CA,California
-1993-03-17,409,Bishop,CA,California
-1993-04-17,474,Bishop,CA,California
-1993-04-21,369,Bishop,CA,California
-1993-11-03,1062,Kennewick,WA,Washington
-1993-02-12,427,Philadelphia,PA,Pennsylvania
-1993-11-27,483,Philadelphia,PA,Pennsylvania
-1993-09-11,382,Spokane,WA,Washington
-1992-08-20,327,Anchorage,AK,Alaska
-1992-09-15,461,Anchorage,AK,Alaska
-1992-06-17,387,Bay City,MI,Michigan
-1992-06-29,422,Bishop,CA,California
-1992-09-03,488,Coeur d'Alene,ID,Idaho
-1992-02-10,390,Juneau,AK,Alaska
-1992-02-11,482,Juneau,AK,Alaska
-1992-09-08,492,Kennewick,WA,Washington
-1992-11-20,545,Riverside,CA,California
-1992-09-04,361,Sandpoint,ID,Idaho
-1992-09-12,699,Spokane,WA,Washington
+Date,AQI,Category,city_ascii,state_id,state_name
+2015-04-14,523,Hazardous,Bishop,CA,California
+2015-08-14,485,Hazardous,Kennewick,WA,Washington
+2015-08-23,302,Hazardous,Lewiston,ID,Idaho
+2015-03-05,676,Hazardous,Phoenix,AZ,Arizona
+2015-03-06,881,Hazardous,Phoenix,AZ,Arizona
+2015-03-07,881,Hazardous,Phoenix,AZ,Arizona
+2015-03-08,881,Hazardous,Phoenix,AZ,Arizona
+2015-03-09,881,Hazardous,Phoenix,AZ,Arizona
+2015-03-10,881,Hazardous,Phoenix,AZ,Arizona
+2015-03-11,514,Hazardous,Phoenix,AZ,Arizona
+2014-10-14,307,Hazardous,Bakersfield,CA,California
+2014-03-17,443,Hazardous,Bishop,CA,California
+2014-05-10,473,Hazardous,Bishop,CA,California
+2014-12-31,911,Hazardous,Bishop,CA,California
+2014-05-06,317,Hazardous,El Centro,CA,California
+2014-11-01,359,Hazardous,El Centro,CA,California
+2014-04-26,455,Hazardous,Las Cruces,NM,New Mexico
+2014-05-02,417,Hazardous,Phoenix,AZ,Arizona
+2014-07-03,436,Hazardous,Phoenix,AZ,Arizona
+2014-07-08,825,Hazardous,Phoenix,AZ,Arizona
+2014-10-16,881,Hazardous,Phoenix,AZ,Arizona
+2014-10-17,881,Hazardous,Phoenix,AZ,Arizona
+2014-10-18,881,Hazardous,Phoenix,AZ,Arizona
+2014-10-19,881,Hazardous,Phoenix,AZ,Arizona
+2014-10-20,881,Hazardous,Phoenix,AZ,Arizona
+2014-10-21,524,Hazardous,Phoenix,AZ,Arizona
+2014-12-25,881,Hazardous,Phoenix,AZ,Arizona
+2014-12-26,881,Hazardous,Phoenix,AZ,Arizona
+2014-12-28,334,Hazardous,Phoenix,AZ,Arizona
+2014-02-22,850,Hazardous,Reno,NV,Nevada
+2014-02-23,891,Hazardous,Reno,NV,Nevada
+2014-02-24,891,Hazardous,Reno,NV,Nevada
+2014-02-25,891,Hazardous,Reno,NV,Nevada
+2014-02-26,523,Hazardous,Reno,NV,Nevada
+2014-03-26,537,Hazardous,Riverside,CA,California
+2013-02-20,425,Hazardous,Bishop,CA,California
+2013-03-06,329,Hazardous,Bishop,CA,California
+2013-02-24,386,Hazardous,Deming,NM,New Mexico
+2013-04-17,556,Hazardous,Deming,NM,New Mexico
+2013-05-02,307,Hazardous,Deming,NM,New Mexico
+2013-07-28,350,Hazardous,Grants Pass,OR,Oregon
+2013-07-31,327,Hazardous,Grants Pass,OR,Oregon
+2013-11-02,515,Hazardous,Kennewick,WA,Washington
+2013-02-20,305,Hazardous,Las Cruces,NM,New Mexico
+2013-02-24,458,Hazardous,Las Cruces,NM,New Mexico
+2013-04-08,411,Hazardous,Las Cruces,NM,New Mexico
+2013-04-09,379,Hazardous,Las Cruces,NM,New Mexico
+2013-04-17,452,Hazardous,Las Cruces,NM,New Mexico
+2013-04-08,406,Hazardous,Phoenix,AZ,Arizona
+2013-06-30,902,Hazardous,Phoenix,AZ,Arizona
+2013-11-13,310,Hazardous,Phoenix,AZ,Arizona
+2013-01-01,895,Hazardous,Reno,NV,Nevada
+2013-01-02,895,Hazardous,Reno,NV,Nevada
+2013-01-03,895,Hazardous,Reno,NV,Nevada
+2013-01-04,895,Hazardous,Reno,NV,Nevada
+2013-01-05,895,Hazardous,Reno,NV,Nevada
+2013-01-06,895,Hazardous,Reno,NV,Nevada
+2013-01-07,895,Hazardous,Reno,NV,Nevada
+2013-01-08,895,Hazardous,Reno,NV,Nevada
+2013-01-09,606,Hazardous,Reno,NV,Nevada
+2013-02-01,608,Hazardous,Reno,NV,Nevada
+2013-02-02,895,Hazardous,Reno,NV,Nevada
+2013-02-03,895,Hazardous,Reno,NV,Nevada
+2013-02-04,895,Hazardous,Reno,NV,Nevada
+2013-02-05,565,Hazardous,Reno,NV,Nevada
+2013-04-15,455,Hazardous,Riverside,CA,California
+2013-10-28,375,Hazardous,Riverside,CA,California
+2013-03-17,310,Hazardous,Rock Springs,WY,Wyoming
+2013-05-04,617,Hazardous,San Diego,CA,California
+2013-04-09,312,Hazardous,Tucson,AZ,Arizona
+2013-04-08,536,Hazardous,Yuma,AZ,Arizona
+2012-09-18,546,Hazardous,Bend,OR,Oregon
+2012-09-19,463,Hazardous,Bend,OR,Oregon
+2012-09-20,446,Hazardous,Bend,OR,Oregon
+2012-09-21,401,Hazardous,Bend,OR,Oregon
+2012-03-06,1431,Hazardous,Bishop,CA,California
+2012-03-07,413,Hazardous,Bishop,CA,California
+2012-03-31,630,Hazardous,Bishop,CA,California
+2012-05-25,3812,Hazardous,Bishop,CA,California
+2012-06-04,580,Hazardous,Bishop,CA,California
+2012-06-23,489,Hazardous,Bishop,CA,California
+2012-11-30,607,Hazardous,Bishop,CA,California
+2012-12-02,776,Hazardous,Bishop,CA,California
+2012-03-07,994,Hazardous,Deming,NM,New Mexico
+2012-03-18,542,Hazardous,Deming,NM,New Mexico
+2012-04-14,823,Hazardous,Deming,NM,New Mexico
+2012-03-18,643,Hazardous,El Paso,TX,Texas
+2012-04-14,539,Hazardous,El Paso,TX,Texas
+2012-03-07,552,Hazardous,Las Cruces,NM,New Mexico
+2012-03-18,1635,Hazardous,Las Cruces,NM,New Mexico
+2012-04-14,857,Hazardous,Las Cruces,NM,New Mexico
+2012-04-26,350,Hazardous,Las Cruces,NM,New Mexico
+2012-11-10,356,Hazardous,Las Cruces,NM,New Mexico
+2012-12-09,315,Hazardous,Las Cruces,NM,New Mexico
+2012-06-16,594,Hazardous,Phoenix,AZ,Arizona
+2012-06-27,400,Hazardous,Phoenix,AZ,Arizona
+2012-09-02,384,Hazardous,Phoenix,AZ,Arizona
+2012-09-06,509,Hazardous,Phoenix,AZ,Arizona
+2012-12-24,480,Hazardous,Reno,NV,Nevada
+2012-12-25,895,Hazardous,Reno,NV,Nevada
+2012-12-26,895,Hazardous,Reno,NV,Nevada
+2012-12-27,895,Hazardous,Reno,NV,Nevada
+2012-12-28,895,Hazardous,Reno,NV,Nevada
+2012-12-29,895,Hazardous,Reno,NV,Nevada
+2012-12-30,895,Hazardous,Reno,NV,Nevada
+2012-12-31,895,Hazardous,Reno,NV,Nevada
+2012-09-28,347,Hazardous,Wenatchee,WA,Washington
+2011-02-05,810,Hazardous,Bishop,CA,California
+2011-02-08,676,Hazardous,Bishop,CA,California
+2011-02-16,833,Hazardous,Bishop,CA,California
+2011-05-25,650,Hazardous,Bishop,CA,California
+2011-11-30,675,Hazardous,Bishop,CA,California
+2011-12-01,13276,Hazardous,Bishop,CA,California
+2011-03-07,610,Hazardous,Deming,NM,New Mexico
+2011-04-09,394,Hazardous,Deming,NM,New Mexico
+2011-04-26,360,Hazardous,Deming,NM,New Mexico
+2011-02-27,352,Hazardous,Las Cruces,NM,New Mexico
+2011-03-07,354,Hazardous,Las Cruces,NM,New Mexico
+2011-04-26,786,Hazardous,Las Cruces,NM,New Mexico
+2011-11-05,306,Hazardous,Las Cruces,NM,New Mexico
+2011-07-02,367,Hazardous,Phoenix,AZ,Arizona
+2011-07-05,2212,Hazardous,Phoenix,AZ,Arizona
+2011-07-17,397,Hazardous,Phoenix,AZ,Arizona
+2011-07-18,1534,Hazardous,Phoenix,AZ,Arizona
+2011-07-24,1072,Hazardous,Phoenix,AZ,Arizona
+2011-07-31,532,Hazardous,Phoenix,AZ,Arizona
+2011-08-03,354,Hazardous,Phoenix,AZ,Arizona
+2011-08-18,627,Hazardous,Phoenix,AZ,Arizona
+2011-08-25,960,Hazardous,Phoenix,AZ,Arizona
+2011-09-02,484,Hazardous,Phoenix,AZ,Arizona
+2011-09-10,597,Hazardous,Phoenix,AZ,Arizona
+2011-10-04,471,Hazardous,Phoenix,AZ,Arizona
+2011-11-04,1057,Hazardous,Phoenix,AZ,Arizona
+2011-08-28,320,Hazardous,Riverside,CA,California
+2010-03-09,462,Hazardous,Bishop,CA,California
+2010-03-13,1120,Hazardous,Bishop,CA,California
+2010-03-18,1204,Hazardous,Bishop,CA,California
+2010-03-23,390,Hazardous,Bishop,CA,California
+2010-03-30,1963,Hazardous,Bishop,CA,California
+2010-03-31,608,Hazardous,Bishop,CA,California
+2010-04-04,2415,Hazardous,Bishop,CA,California
+2010-04-11,4466,Hazardous,Bishop,CA,California
+2010-04-20,1550,Hazardous,Bishop,CA,California
+2010-04-27,1333,Hazardous,Bishop,CA,California
+2010-05-27,1679,Hazardous,Bishop,CA,California
+2010-03-26,415,Hazardous,Deming,NM,New Mexico
+2010-12-30,420,Hazardous,Deming,NM,New Mexico
+2010-03-26,485,Hazardous,Las Cruces,NM,New Mexico
+2010-04-01,451,Hazardous,Las Cruces,NM,New Mexico
+2010-04-29,500,Hazardous,Las Cruces,NM,New Mexico
+2010-12-30,671,Hazardous,Las Cruces,NM,New Mexico
+2010-01-21,1657,Hazardous,Phoenix,AZ,Arizona
+2010-05-02,391,Hazardous,Phoenix,AZ,Arizona
+2010-03-30,501,Hazardous,Salt Lake City,UT,Utah
+2009-03-01,1402,Hazardous,Bishop,CA,California
+2009-03-03,356,Hazardous,Bishop,CA,California
+2009-03-22,345,Hazardous,Bishop,CA,California
+2009-03-29,546,Hazardous,Bishop,CA,California
+2009-04-14,1302,Hazardous,Bishop,CA,California
+2009-05-18,331,Hazardous,Bishop,CA,California
+2009-12-22,349,Hazardous,Bishop,CA,California
+2009-08-05,330,Hazardous,Fairbanks,AK,Alaska
+2009-07-17,1341,Hazardous,Phoenix,AZ,Arizona
+2009-07-18,337,Hazardous,Phoenix,AZ,Arizona
+2009-08-28,369,Hazardous,Phoenix,AZ,Arizona
+2009-09-03,302,Hazardous,Phoenix,AZ,Arizona
+2009-10-27,694,Hazardous,Phoenix,AZ,Arizona
+2009-12-22,783,Hazardous,Phoenix,AZ,Arizona
+2009-09-04,354,Hazardous,Rapid City,SD,South Dakota
+2008-02-13,589,Hazardous,Bishop,CA,California
+2008-04-14,529,Hazardous,Bishop,CA,California
+2008-04-30,394,Hazardous,Bishop,CA,California
+2008-10-10,710,Hazardous,Bishop,CA,California
+2008-03-16,765,Hazardous,Deming,NM,New Mexico
+2008-04-27,755,Hazardous,Deming,NM,New Mexico
+2008-05-21,929,Hazardous,Deming,NM,New Mexico
+2008-03-14,420,Hazardous,Las Cruces,NM,New Mexico
+2008-04-09,337,Hazardous,Las Cruces,NM,New Mexico
+2008-04-10,332,Hazardous,Las Cruces,NM,New Mexico
+2008-03-13,317,Hazardous,Phoenix,AZ,Arizona
+2008-03-21,435,Hazardous,Phoenix,AZ,Arizona
+2008-03-25,391,Hazardous,Phoenix,AZ,Arizona
+2008-04-04,315,Hazardous,Phoenix,AZ,Arizona
+2008-05-21,505,Hazardous,Phoenix,AZ,Arizona
+2008-11-09,424,Hazardous,Phoenix,AZ,Arizona
+2008-04-30,322,Hazardous,Riverside,CA,California
+2007-01-21,391,Hazardous,Bishop,CA,California
+2007-06-05,623,Hazardous,Bishop,CA,California
+2007-10-21,381,Hazardous,Los Angeles,CA,California
+2007-03-06,309,Hazardous,Phoenix,AZ,Arizona
+2007-03-08,390,Hazardous,Phoenix,AZ,Arizona
+2007-03-11,432,Hazardous,Phoenix,AZ,Arizona
+2007-03-12,472,Hazardous,Phoenix,AZ,Arizona
+2007-03-15,909,Hazardous,Phoenix,AZ,Arizona
+2007-03-18,407,Hazardous,Phoenix,AZ,Arizona
+2007-03-20,549,Hazardous,Phoenix,AZ,Arizona
+2007-03-27,415,Hazardous,Phoenix,AZ,Arizona
+2007-04-12,655,Hazardous,Phoenix,AZ,Arizona
+2007-04-28,421,Hazardous,Phoenix,AZ,Arizona
+2007-05-01,2148,Hazardous,Phoenix,AZ,Arizona
+2007-05-08,312,Hazardous,Phoenix,AZ,Arizona
+2007-06-06,305,Hazardous,Phoenix,AZ,Arizona
+2007-06-07,387,Hazardous,Phoenix,AZ,Arizona
+2007-06-17,382,Hazardous,Phoenix,AZ,Arizona
+2007-06-30,320,Hazardous,Phoenix,AZ,Arizona
+2007-07-06,417,Hazardous,Phoenix,AZ,Arizona
+2007-07-19,1734,Hazardous,Phoenix,AZ,Arizona
+2007-08-16,865,Hazardous,Phoenix,AZ,Arizona
+2007-10-06,399,Hazardous,Phoenix,AZ,Arizona
+2007-10-10,376,Hazardous,Phoenix,AZ,Arizona
+2007-10-11,432,Hazardous,Phoenix,AZ,Arizona
+2007-10-25,422,Hazardous,Phoenix,AZ,Arizona
+2007-10-26,301,Hazardous,Phoenix,AZ,Arizona
+2007-10-21,1108,Hazardous,Riverside,CA,California
+2007-10-13,326,Hazardous,Tallahassee,FL,Florida
+2006-01-18,6234,Hazardous,Bishop,CA,California
+2006-01-22,1818,Hazardous,Bishop,CA,California
+2006-01-23,1588,Hazardous,Bishop,CA,California
+2006-01-31,2433,Hazardous,Bishop,CA,California
+2006-02-14,2799,Hazardous,Bishop,CA,California
+2006-02-15,8195,Hazardous,Bishop,CA,California
+2006-03-25,873,Hazardous,Bishop,CA,California
+2006-11-11,457,Hazardous,Bishop,CA,California
+2006-11-29,747,Hazardous,Bishop,CA,California
+2006-12-28,1996,Hazardous,Bishop,CA,California
+2006-06-21,455,Hazardous,El Paso,TX,Texas
+2006-11-14,608,Hazardous,El Paso,TX,Texas
+2006-11-30,394,Hazardous,Laredo,TX,Texas
+2006-06-21,361,Hazardous,Las Cruces,NM,New Mexico
+2006-11-14,396,Hazardous,Las Cruces,NM,New Mexico
+2006-12-28,455,Hazardous,Pahrump,NV,Nevada
+2006-02-12,366,Hazardous,Phoenix,AZ,Arizona
+2006-02-15,310,Hazardous,Phoenix,AZ,Arizona
+2006-03-07,342,Hazardous,Phoenix,AZ,Arizona
+2006-03-08,411,Hazardous,Phoenix,AZ,Arizona
+2006-03-10,352,Hazardous,Phoenix,AZ,Arizona
+2006-04-14,623,Hazardous,Phoenix,AZ,Arizona
+2006-04-21,409,Hazardous,Phoenix,AZ,Arizona
+2006-05-05,307,Hazardous,Phoenix,AZ,Arizona
+2006-05-22,381,Hazardous,Phoenix,AZ,Arizona
+2006-05-23,345,Hazardous,Phoenix,AZ,Arizona
+2006-05-24,553,Hazardous,Phoenix,AZ,Arizona
+2006-06-06,809,Hazardous,Phoenix,AZ,Arizona
+2006-06-16,427,Hazardous,Phoenix,AZ,Arizona
+2006-06-25,659,Hazardous,Phoenix,AZ,Arizona
+2006-06-26,306,Hazardous,Phoenix,AZ,Arizona
+2006-09-17,403,Hazardous,Phoenix,AZ,Arizona
+2006-09-21,690,Hazardous,Phoenix,AZ,Arizona
+2006-09-25,547,Hazardous,Phoenix,AZ,Arizona
+2006-09-28,812,Hazardous,Phoenix,AZ,Arizona
+2006-09-29,974,Hazardous,Phoenix,AZ,Arizona
+2006-09-30,374,Hazardous,Phoenix,AZ,Arizona
+2006-10-01,351,Hazardous,Phoenix,AZ,Arizona
+2006-10-02,329,Hazardous,Phoenix,AZ,Arizona
+2006-10-08,405,Hazardous,Phoenix,AZ,Arizona
+2006-10-20,645,Hazardous,Phoenix,AZ,Arizona
+2006-10-21,369,Hazardous,Phoenix,AZ,Arizona
+2006-10-23,367,Hazardous,Phoenix,AZ,Arizona
+2006-11-03,532,Hazardous,Phoenix,AZ,Arizona
+2006-11-06,435,Hazardous,Phoenix,AZ,Arizona
+2006-11-07,536,Hazardous,Phoenix,AZ,Arizona
+2006-11-16,605,Hazardous,Phoenix,AZ,Arizona
+2006-11-17,319,Hazardous,Phoenix,AZ,Arizona
+2006-11-18,369,Hazardous,Phoenix,AZ,Arizona
+2006-11-21,404,Hazardous,Phoenix,AZ,Arizona
+2006-11-29,361,Hazardous,Phoenix,AZ,Arizona
+2006-12-05,307,Hazardous,Phoenix,AZ,Arizona
+2006-12-06,422,Hazardous,Phoenix,AZ,Arizona
+2006-02-15,344,Hazardous,Rock Springs,WY,Wyoming
+2005-01-30,522,Hazardous,Bishop,CA,California
+2005-02-01,331,Hazardous,Bishop,CA,California
+2005-03-13,2699,Hazardous,Bishop,CA,California
+2005-03-14,3884,Hazardous,Bishop,CA,California
+2005-04-19,675,Hazardous,Bishop,CA,California
+2005-05-29,743,Hazardous,Bishop,CA,California
+2005-05-30,774,Hazardous,Bishop,CA,California
+2005-06-02,3434,Hazardous,Bishop,CA,California
+2005-06-03,666,Hazardous,Bishop,CA,California
+2005-06-17,1337,Hazardous,Bishop,CA,California
+2005-11-25,481,Hazardous,Bishop,CA,California
+2005-12-25,775,Hazardous,Bishop,CA,California
+2005-08-12,486,Hazardous,Kennewick,WA,Washington
+2005-11-27,874,Hazardous,Las Cruces,NM,New Mexico
+2004-04-27,501,Hazardous,Anchorage,AK,Alaska
+2004-01-31,637,Hazardous,Bishop,CA,California
+2004-02-07,468,Hazardous,Bishop,CA,California
+2004-02-09,582,Hazardous,Bishop,CA,California
+2004-02-10,499,Hazardous,Bishop,CA,California
+2004-02-18,709,Hazardous,Bishop,CA,California
+2004-03-10,4367,Hazardous,Bishop,CA,California
+2004-03-25,3218,Hazardous,Bishop,CA,California
+2004-04-01,1797,Hazardous,Bishop,CA,California
+2004-04-02,5121,Hazardous,Bishop,CA,California
+2004-04-22,3191,Hazardous,Bishop,CA,California
+2004-04-28,1137,Hazardous,Bishop,CA,California
+2004-05-10,2110,Hazardous,Bishop,CA,California
+2004-05-11,1164,Hazardous,Bishop,CA,California
+2004-10-18,356,Hazardous,Bishop,CA,California
+2004-11-21,4021,Hazardous,Bishop,CA,California
+2004-11-22,564,Hazardous,Bishop,CA,California
+2004-11-27,2011,Hazardous,Bishop,CA,California
+2004-11-28,446,Hazardous,Bishop,CA,California
+2004-12-21,1270,Hazardous,Bishop,CA,California
+2004-12-23,677,Hazardous,Bishop,CA,California
+2004-06-29,420,Hazardous,Fairbanks,AK,Alaska
+2004-06-30,503,Hazardous,Fairbanks,AK,Alaska
+2004-07-02,479,Hazardous,Fairbanks,AK,Alaska
+2004-08-20,377,Hazardous,Fairbanks,AK,Alaska
+2004-08-21,420,Hazardous,Fairbanks,AK,Alaska
+2004-08-23,386,Hazardous,Fairbanks,AK,Alaska
+2004-01-01,521,Hazardous,Gillette,WY,Wyoming
+2004-03-06,314,Hazardous,Gillette,WY,Wyoming
+2004-04-27,435,Hazardous,Kennewick,WA,Washington
+2004-02-19,1006,Hazardous,Las Cruces,NM,New Mexico
+2004-08-13,385,Hazardous,Phoenix,AZ,Arizona
+2004-11-30,412,Hazardous,Rock Springs,WY,Wyoming
+2003-03-12,486,Hazardous,Anchorage,AK,Alaska
+2003-01-05,1113,Hazardous,Bishop,CA,California
+2003-01-06,312,Hazardous,Bishop,CA,California
+2003-02-01,1064,Hazardous,Bishop,CA,California
+2003-02-02,16515,Hazardous,Bishop,CA,California
+2003-02-04,3481,Hazardous,Bishop,CA,California
+2003-02-05,2296,Hazardous,Bishop,CA,California
+2003-02-20,2161,Hazardous,Bishop,CA,California
+2003-03-13,1264,Hazardous,Bishop,CA,California
+2003-03-14,1105,Hazardous,Bishop,CA,California
+2003-03-17,1532,Hazardous,Bishop,CA,California
+2003-03-18,6488,Hazardous,Bishop,CA,California
+2003-03-27,2223,Hazardous,Bishop,CA,California
+2003-03-28,1926,Hazardous,Bishop,CA,California
+2003-04-12,426,Hazardous,Bishop,CA,California
+2003-04-18,568,Hazardous,Bishop,CA,California
+2003-05-14,2416,Hazardous,Bishop,CA,California
+2003-06-23,374,Hazardous,Bishop,CA,California
+2003-07-22,874,Hazardous,Bishop,CA,California
+2003-10-30,736,Hazardous,El Centro,CA,California
+2003-02-02,361,Hazardous,El Paso,TX,Texas
+2003-04-15,615,Hazardous,El Paso,TX,Texas
+2003-11-22,1032,Hazardous,El Paso,TX,Texas
+2003-12-26,408,Hazardous,El Paso,TX,Texas
+2003-10-28,1334,Hazardous,Kennewick,WA,Washington
+2003-11-22,1005,Hazardous,Las Cruces,NM,New Mexico
+2003-12-15,400,Hazardous,Las Cruces,NM,New Mexico
+2003-12-26,344,Hazardous,Las Cruces,NM,New Mexico
+2003-10-28,1234,Hazardous,Walla Walla,WA,Washington
+2002-04-26,413,Hazardous,Albuquerque,NM,New Mexico
+2002-06-01,324,Hazardous,Albuquerque,NM,New Mexico
+2002-01-09,1068,Hazardous,Bishop,CA,California
+2002-01-19,1005,Hazardous,Bishop,CA,California
+2002-01-22,766,Hazardous,Bishop,CA,California
+2002-01-29,507,Hazardous,Bishop,CA,California
+2002-02-23,418,Hazardous,Bishop,CA,California
+2002-02-28,2421,Hazardous,Bishop,CA,California
+2002-03-01,7811,Hazardous,Bishop,CA,California
+2002-03-06,863,Hazardous,Bishop,CA,California
+2002-03-10,1400,Hazardous,Bishop,CA,California
+2002-03-13,867,Hazardous,Bishop,CA,California
+2002-03-18,995,Hazardous,Bishop,CA,California
+2002-04-14,449,Hazardous,Bishop,CA,California
+2002-04-15,2191,Hazardous,Bishop,CA,California
+2002-04-16,680,Hazardous,Bishop,CA,California
+2002-04-17,6967,Hazardous,Bishop,CA,California
+2002-04-18,507,Hazardous,Bishop,CA,California
+2002-05-07,753,Hazardous,Bishop,CA,California
+2002-05-10,1566,Hazardous,Bishop,CA,California
+2002-05-19,355,Hazardous,Bishop,CA,California
+2002-06-08,1550,Hazardous,Bishop,CA,California
+2002-06-09,2858,Hazardous,Bishop,CA,California
+2002-10-02,686,Hazardous,Bishop,CA,California
+2002-11-07,367,Hazardous,Bishop,CA,California
+2002-11-25,2533,Hazardous,Bishop,CA,California
+2002-11-26,1681,Hazardous,Bishop,CA,California
+2002-12-31,705,Hazardous,Bishop,CA,California
+2002-03-14,429,Hazardous,El Paso,TX,Texas
+2002-04-26,485,Hazardous,El Paso,TX,Texas
+2002-04-15,431,Hazardous,Las Vegas,NV,Nevada
+2002-08-14,418,Hazardous,Riverside,CA,California
+2002-08-15,335,Hazardous,Riverside,CA,California
+2001-01-16,1940,Hazardous,Bishop,CA,California
+2001-01-27,561,Hazardous,Bishop,CA,California
+2001-02-06,5020,Hazardous,Bishop,CA,California
+2001-02-07,10856,Hazardous,Bishop,CA,California
+2001-02-08,12056,Hazardous,Bishop,CA,California
+2001-02-27,460,Hazardous,Bishop,CA,California
+2001-02-28,768,Hazardous,Bishop,CA,California
+2001-03-10,646,Hazardous,Bishop,CA,California
+2001-03-26,433,Hazardous,Bishop,CA,California
+2001-03-29,718,Hazardous,Bishop,CA,California
+2001-04-01,2626,Hazardous,Bishop,CA,California
+2001-04-02,362,Hazardous,Bishop,CA,California
+2001-04-10,3415,Hazardous,Bishop,CA,California
+2001-04-11,1819,Hazardous,Bishop,CA,California
+2001-04-12,889,Hazardous,Bishop,CA,California
+2001-04-19,1365,Hazardous,Bishop,CA,California
+2001-04-20,685,Hazardous,Bishop,CA,California
+2001-04-21,434,Hazardous,Bishop,CA,California
+2001-05-02,20646,Hazardous,Bishop,CA,California
+2001-05-03,4026,Hazardous,Bishop,CA,California
+2001-05-21,355,Hazardous,Bishop,CA,California
+2001-05-28,446,Hazardous,Bishop,CA,California
+2001-06-01,1413,Hazardous,Bishop,CA,California
+2001-06-03,978,Hazardous,Bishop,CA,California
+2001-06-04,2542,Hazardous,Bishop,CA,California
+2001-06-13,3808,Hazardous,Bishop,CA,California
+2001-10-12,1039,Hazardous,Bishop,CA,California
+2001-11-22,1091,Hazardous,Bishop,CA,California
+2001-12-09,350,Hazardous,Bishop,CA,California
+2001-12-10,3198,Hazardous,Bishop,CA,California
+2001-12-14,3436,Hazardous,Bishop,CA,California
+2001-12-15,841,Hazardous,Bishop,CA,California
+2001-08-17,543,Hazardous,El Centro,CA,California
+2001-04-10,379,Hazardous,El Paso,TX,Texas
+2001-12-20,506,Hazardous,Joplin,MO,Missouri
+2001-02-18,314,Hazardous,Medford,OR,Oregon
+2001-08-17,500,Hazardous,Riverside,CA,California
+2000-01-26,315,Hazardous,Bishop,CA,California
+2000-02-14,424,Hazardous,Bishop,CA,California
+2000-03-20,10446,Hazardous,Bishop,CA,California
+2000-03-21,3065,Hazardous,Bishop,CA,California
+2000-03-30,1819,Hazardous,Bishop,CA,California
+2000-03-31,1503,Hazardous,Bishop,CA,California
+2000-04-08,410,Hazardous,Bishop,CA,California
+2000-04-10,316,Hazardous,Bishop,CA,California
+2000-04-28,1246,Hazardous,Bishop,CA,California
+2000-04-29,2420,Hazardous,Bishop,CA,California
+2000-05-10,1305,Hazardous,Bishop,CA,California
+2000-05-11,2974,Hazardous,Bishop,CA,California
+2000-06-08,873,Hazardous,Bishop,CA,California
+2000-10-21,3350,Hazardous,Bishop,CA,California
+2000-10-22,10736,Hazardous,Bishop,CA,California
+2000-11-06,740,Hazardous,Bishop,CA,California
+2000-11-07,1162,Hazardous,Bishop,CA,California
+2000-11-09,361,Hazardous,Bishop,CA,California
+2000-11-29,997,Hazardous,Bishop,CA,California
+2000-12-24,693,Hazardous,Bishop,CA,California
+2000-12-25,444,Hazardous,Bishop,CA,California
+2000-05-10,404,Hazardous,Las Vegas,NV,Nevada
+1999-02-25,1806,Hazardous,Bishop,CA,California
+1999-03-09,1286,Hazardous,Bishop,CA,California
+1999-04-05,2465,Hazardous,Bishop,CA,California
+1999-04-22,623,Hazardous,Bishop,CA,California
+1999-06-02,410,Hazardous,Bishop,CA,California
+1999-09-22,354,Hazardous,Bishop,CA,California
+1999-10-06,521,Hazardous,Bishop,CA,California
+1999-10-16,892,Hazardous,Bishop,CA,California
+1999-11-21,2797,Hazardous,Bishop,CA,California
+1999-12-02,425,Hazardous,Bishop,CA,California
+1999-12-07,540,Hazardous,Bishop,CA,California
+1999-03-31,322,Hazardous,Las Vegas,NV,Nevada
+1999-03-31,390,Hazardous,Montrose,CO,Colorado
+1999-09-25,489,Hazardous,Pocatello,ID,Idaho
+1998-01-02,360,Hazardous,Bishop,CA,California
+1998-04-13,486,Hazardous,Bishop,CA,California
+1998-05-09,493,Hazardous,Bishop,CA,California
+1998-05-16,1360,Hazardous,Bishop,CA,California
+1998-11-17,357,Hazardous,Bishop,CA,California
+1998-12-03,559,Hazardous,Bishop,CA,California
+1998-02-24,928,Hazardous,Las Cruces,NM,New Mexico
+1998-03-07,347,Hazardous,Las Cruces,NM,New Mexico
+1998-03-26,1373,Hazardous,Las Cruces,NM,New Mexico
+1998-04-12,415,Hazardous,Las Cruces,NM,New Mexico
+1997-02-12,416,Hazardous,Bishop,CA,California
+1997-02-13,662,Hazardous,Bishop,CA,California
+1997-03-31,305,Hazardous,Bishop,CA,California
+1997-12-19,2125,Hazardous,Bishop,CA,California
+1997-12-22,1158,Hazardous,Bishop,CA,California
+1997-10-07,428,Hazardous,El Centro,CA,California
+1997-01-12,490,Hazardous,Las Cruces,NM,New Mexico
+1997-02-24,1160,Hazardous,Las Cruces,NM,New Mexico
+1997-02-28,334,Hazardous,Las Cruces,NM,New Mexico
+1997-04-10,342,Hazardous,Las Cruces,NM,New Mexico
+1997-04-24,553,Hazardous,Las Cruces,NM,New Mexico
+1997-09-20,377,Hazardous,Las Cruces,NM,New Mexico
+1997-07-09,370,Hazardous,Phoenix,AZ,Arizona
+1997-01-02,310,Hazardous,West Plains,MO,Missouri
+1997-01-03,608,Hazardous,West Plains,MO,Missouri
+1997-01-20,347,Hazardous,West Plains,MO,Missouri
+1997-02-17,425,Hazardous,West Plains,MO,Missouri
+1997-02-18,574,Hazardous,West Plains,MO,Missouri
+1997-03-24,311,Hazardous,West Plains,MO,Missouri
+1997-03-27,552,Hazardous,West Plains,MO,Missouri
+1997-04-02,372,Hazardous,West Plains,MO,Missouri
+1997-04-03,371,Hazardous,West Plains,MO,Missouri
+1997-04-04,421,Hazardous,West Plains,MO,Missouri
+1997-04-05,399,Hazardous,West Plains,MO,Missouri
+1997-04-15,384,Hazardous,West Plains,MO,Missouri
+1997-04-18,501,Hazardous,West Plains,MO,Missouri
+1997-04-29,590,Hazardous,West Plains,MO,Missouri
+1997-05-07,474,Hazardous,West Plains,MO,Missouri
+1996-03-22,630,Hazardous,Bishop,CA,California
+1996-03-28,758,Hazardous,Bishop,CA,California
+1996-04-27,553,Hazardous,Bishop,CA,California
+1996-04-28,2279,Hazardous,Bishop,CA,California
+1996-05-15,460,Hazardous,Bishop,CA,California
+1996-05-16,417,Hazardous,Bishop,CA,California
+1996-11-29,606,Hazardous,Bishop,CA,California
+1996-03-20,504,Hazardous,Chicago,IL,Illinois
+1996-01-17,432,Hazardous,El Paso,TX,Texas
+1996-01-17,1410,Hazardous,Las Cruces,NM,New Mexico
+1996-02-11,366,Hazardous,Las Cruces,NM,New Mexico
+1996-03-13,381,Hazardous,Las Cruces,NM,New Mexico
+1996-03-23,698,Hazardous,Las Cruces,NM,New Mexico
+1996-03-29,427,Hazardous,Las Cruces,NM,New Mexico
+1996-08-13,337,Hazardous,Philadelphia,PA,Pennsylvania
+1996-12-31,321,Hazardous,Pocatello,ID,Idaho
+1996-04-27,672,Hazardous,West Plains,MO,Missouri
+1996-04-30,354,Hazardous,West Plains,MO,Missouri
+1996-05-02,623,Hazardous,West Plains,MO,Missouri
+1996-05-04,750,Hazardous,West Plains,MO,Missouri
+1996-05-09,1112,Hazardous,West Plains,MO,Missouri
+1996-05-10,1065,Hazardous,West Plains,MO,Missouri
+1996-05-15,1608,Hazardous,West Plains,MO,Missouri
+1996-05-16,640,Hazardous,West Plains,MO,Missouri
+1996-06-29,405,Hazardous,West Plains,MO,Missouri
+1996-07-04,506,Hazardous,West Plains,MO,Missouri
+1996-07-05,957,Hazardous,West Plains,MO,Missouri
+1996-07-18,808,Hazardous,West Plains,MO,Missouri
+1996-07-19,459,Hazardous,West Plains,MO,Missouri
+1996-07-24,437,Hazardous,West Plains,MO,Missouri
+1996-08-05,1217,Hazardous,West Plains,MO,Missouri
+1996-08-06,355,Hazardous,West Plains,MO,Missouri
+1996-08-07,365,Hazardous,West Plains,MO,Missouri
+1996-08-14,667,Hazardous,West Plains,MO,Missouri
+1996-08-19,736,Hazardous,West Plains,MO,Missouri
+1996-08-22,377,Hazardous,West Plains,MO,Missouri
+1996-09-19,658,Hazardous,West Plains,MO,Missouri
+1996-09-26,365,Hazardous,West Plains,MO,Missouri
+1996-10-01,809,Hazardous,West Plains,MO,Missouri
+1996-10-15,640,Hazardous,West Plains,MO,Missouri
+1996-10-21,417,Hazardous,West Plains,MO,Missouri
+1996-10-29,1107,Hazardous,West Plains,MO,Missouri
+1996-11-04,654,Hazardous,West Plains,MO,Missouri
+1996-12-09,509,Hazardous,West Plains,MO,Missouri
+1996-12-14,461,Hazardous,West Plains,MO,Missouri
+1996-12-20,390,Hazardous,West Plains,MO,Missouri
+1996-12-21,615,Hazardous,West Plains,MO,Missouri
+1996-12-27,743,Hazardous,West Plains,MO,Missouri
+1996-12-28,524,Hazardous,West Plains,MO,Missouri
+1995-02-13,3779,Hazardous,Bishop,CA,California
+1995-03-03,561,Hazardous,Bishop,CA,California
+1995-03-21,2100,Hazardous,Bishop,CA,California
+1995-04-01,454,Hazardous,Bishop,CA,California
+1995-04-08,588,Hazardous,Bishop,CA,California
+1995-04-09,2148,Hazardous,Bishop,CA,California
+1995-04-12,2564,Hazardous,Bishop,CA,California
+1995-04-13,3825,Hazardous,Bishop,CA,California
+1995-04-27,337,Hazardous,Bishop,CA,California
+1995-06-05,320,Hazardous,Bishop,CA,California
+1995-06-06,714,Hazardous,Bishop,CA,California
+1995-12-12,996,Hazardous,Bishop,CA,California
+1995-04-17,498,Hazardous,Lubbock,TX,Texas
+1995-05-07,397,Hazardous,Lubbock,TX,Texas
+1994-02-17,1277,Hazardous,Bishop,CA,California
+1994-03-18,1122,Hazardous,Bishop,CA,California
+1994-03-22,857,Hazardous,Bishop,CA,California
+1994-04-23,468,Hazardous,Bishop,CA,California
+1994-12-12,576,Hazardous,Bishop,CA,California
+1994-11-26,382,Hazardous,Las Cruces,NM,New Mexico
+1994-11-16,427,Hazardous,Philadelphia,PA,Pennsylvania
+1993-01-01,677,Hazardous,Bishop,CA,California
+1993-03-17,409,Hazardous,Bishop,CA,California
+1993-04-17,474,Hazardous,Bishop,CA,California
+1993-04-21,369,Hazardous,Bishop,CA,California
+1993-11-03,1062,Hazardous,Kennewick,WA,Washington
+1993-02-12,427,Hazardous,Philadelphia,PA,Pennsylvania
+1993-11-27,483,Hazardous,Philadelphia,PA,Pennsylvania
+1993-09-11,382,Hazardous,Spokane,WA,Washington
+1992-08-20,327,Hazardous,Anchorage,AK,Alaska
+1992-09-15,461,Hazardous,Anchorage,AK,Alaska
+1992-06-17,387,Hazardous,Bay City,MI,Michigan
+1992-06-29,422,Hazardous,Bishop,CA,California
+1992-09-03,488,Hazardous,Coeur d'Alene,ID,Idaho
+1992-02-10,390,Hazardous,Juneau,AK,Alaska
+1992-02-11,482,Hazardous,Juneau,AK,Alaska
+1992-09-08,492,Hazardous,Kennewick,WA,Washington
+1992-11-20,545,Hazardous,Riverside,CA,California
+1992-09-04,361,Hazardous,Sandpoint,ID,Idaho
+1992-09-12,699,Hazardous,Spokane,WA,Washington
