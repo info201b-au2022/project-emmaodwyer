@@ -26,7 +26,7 @@ US_AQI_mean <- US_AQI %>%
   summarise_at(vars(AQI), list(mean_aqi_per_year = mean))
 View(US_AQI_mean)
 
-# making "US_AQI_mean" into dataframe
+# making 'US_AQI_mean' into dataframe
 mean_df <- as.data.frame(US_AQI_mean)
 View(mean_df)
 
