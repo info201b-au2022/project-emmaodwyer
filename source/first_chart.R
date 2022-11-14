@@ -7,10 +7,10 @@ library(readr)
 
 # get data for chart 1
 US_AQI <- list.files(path = "../data/aqi_data",
-                  pattern = "*.csv", full.names = TRUE) %>%
+                    pattern = "*.csv", full.names = TRUE) %>%
   lapply(read_csv) %>%
   bind_rows 
-#View(US_AQI)
+View(US_AQI)
 
 # filter 'US_AQI' to the beginning of 1992 
 US_AQI <- US_AQI %>%
@@ -20,17 +20,6 @@ US_AQI <- US_AQI %>%
 US_AQI <- US_AQI %>%
   mutate(Year = format(as.Date(Date, format="%Y-%m-%d"),"%Y"))
 
-<<<<<<< HEAD
-=======
-# extract year
-year <- table(US_AQI$Year)
-#View(year)
-
-#making year into dataframe
-year_df <- as.data.frame(year)
-#View(year_df)
-
->>>>>>> origin/main
 # find mean AQI by year
 US_AQI_mean <- US_AQI %>%
   group_by(Year) %>%
@@ -41,23 +30,10 @@ View(US_AQI_mean)
 mean_df <- as.data.frame(US_AQI_mean)
 View(mean_df)
 
-<<<<<<< HEAD
 # bar chart of mean AQI by year 
 bar_chart <- 
   ggplot(mean_df, aes(x=Year, y=mean_aqi_per_year))+
-=======
-# gathering data
-data <- data.frame("num" = year_df$Freq, "year" = US_AQI_mean$Year)
-#View(data)
-  
-# bar chart of mean AQI by year 
-bar_chart <- 
-  ggplot(data, aes(x=year, y=num, width=.8)) +
-  labs(title="Mean AQI in the United States by Year", 
-       x="Year",
-       y="Mean Air Quality Index") +
->>>>>>> origin/main
+  labs(title="Mean AQI in the United States by Year", x="Year", y="Mean Air Quality Index") +
   geom_bar(width = 1, stat = "identity") 
-
-#plot(bar_chart)
+bar_chart
 
