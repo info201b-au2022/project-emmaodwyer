@@ -3,7 +3,14 @@ library(tidyverse)
 library(lubridate)
 wildfires <- read_csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
 surface_temp <- read_csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/1910-2022.csv")
-aqi <- read.csv("~/Downloads/US_AQI.csv")
+#aqi <- read.csv("~/Downloads/US_AQI.csv")
+
+#etwd()
+aqi <- list.files(path = "./data/aqi_data",
+                      pattern = "*.csv", full.names = TRUE) %>%
+  lapply(read_csv) %>%
+  bind_rows 
+
 
 wildfires <- wildfires %>% select(fire_size, fire_size_class, stat_cause_descr, state, disc_clean_date)
 wildfire <- wildfires %>% 

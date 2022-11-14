@@ -1,9 +1,20 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "The Effects of Climate Change on Wildfires and Air Quality"
+author: "Thanh Ly, Emma O'Dwyer, Jennifer Gomez, Cole Meier"
+date: "11/13/2022"
 output: html_document
 ---
+
+```{r summary info,echo=FALSE, message=FALSE}
+library(tidyverse)
+source("../source/summary_info.R")
+```
+## Summary Information
+`r summary_info$max_fire_size`
+
+
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

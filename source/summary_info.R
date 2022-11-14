@@ -1,16 +1,23 @@
 #File to calculate summary info to be included in our report
 # A source file that takes in a dataset and returns a list of info about it:
-
+# setwd("~/documents/info201/project/project-emmaodwyer/source")
+# setwd("~/documents/info201/project/project-emmaodwyer/docs")
+library(tidyverse)
+wildfire <- read.csv("../data/FW_Veg_Rem_Combined.csv")
+US_AQ <- list.files(path = "../data/aqi_data",
+                      pattern = "*.csv", full.names = TRUE) %>%
+  lapply(read_csv) %>%
+  bind_rows 
 
 #NOTE:  wildfire data is called 'wildfire' and AQI is called 'US_AQ'!!!
 summary_info <- list()
-summary_info$num_observations <- nrow(my_dataframe)
+#summary_info$num_observations <- nrow(my_dataframe)
 
 #WILDFIRE DATA SUMMARY
 #max wildfire size
 summary_info$max_fire_size <- wildfire %>%
   filter(fire_size == max(fire_size, na.rm = T)) %>%
-  select(fire_size)
+  pull(fire_size)
 
 #mean wildfire size
 summary_info$mean_fire_size <- wildfire %>%
