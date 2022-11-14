@@ -1,10 +1,16 @@
 #File to calculate summary info to be included in our report
 # A source file that takes in a dataset and returns a list of info about it:
 
+library(tidyverse)
+wildfire <- read.csv("../data/FW_Veg_Rem_Combined.csv")
+US_AQ <- list.files(path = "../data/aqi_data",
+                      pattern = "*.csv", full.names = TRUE) %>%
+  lapply(read_csv) %>%
+  bind_rows 
 
 #NOTE:  wildfire data is called 'wildfire' and AQI is called 'US_AQ'!!!
 summary_info <- list()
-summary_info$num_observations <- nrow(my_dataframe)
+#summary_info$num_observations <- nrow(my_dataframe)
 
 #WILDFIRE DATA SUMMARY
 #max wildfire size

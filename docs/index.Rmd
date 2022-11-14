@@ -1,54 +1,52 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "The Effects of Climate Change on Wildfires and Air Quality"
+author: "Thanh Ly, Emma O'Dwyer, Jennifer Gomez, Cole Meier"
+date: "11/13/2022"
 output: html_document
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## What is this file for?
+```{r summary info,echo=FALSE, message=FALSE}
+source("../source/summary_info.R")
+```
+## Summary Information
+With our datasets, we analyzed various areas of interest regarding wildfires and air quality in the United States. From our analysis, we found that the largest fire had affected `r sprintf("%.2f", summary_info$max_fire_size)` acres, while the average affected number of acres for fires is `r sprintf("%.2f", summary_info$mean_fire_size)`. We also found that the most common fire size class is "`r summary_info$mode_fire_size_class`", where A is the lowest severity and G is the highest. The most common cause of wildfires is "`r summary_info$mode_fire_cause`", and the most common state for wildfires to occur is "`r summary_info$mode_fire_state`". Due to our studies being in Washington state, we were also interested in information specific to Washington state. We found that in Washington, the mean fire size is `r sprintf("%.2f", summary_info$mean_fire_size_wa)` acres, the most common fire size class is "`r summary_info$mode_fire_size_class_wa`", and the most common cause of wildfires in Washington is "`r summary_info$mode_fire_cause_wa`".
 
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
+For air quality, we found that the max air quality index recorded in the United States is `r sprintf("%.2f", summary_info$max_aqi)`, where higher aqi numbers indicate worse air quality. The average air quality in the United States is `r sprintf("%.2f", summary_info$mean_aqi)`, and the most common air quality category is "`r summary_info$mode_aqi_category`".
 
-* Please see Canvas for more details.
+## Aggregate Table
+```{r aggregate table,echo=FALSE, message=FALSE}
+library(knitr)
+source("../source/Aggregate_table.R")
+kable(aggregate_table)
+```
+This table displays information about the temperature anomalies in North America with respect to the temperature average from 1910-2000. It also includes the average air quality index (aqi) in the United States per year, the average number of fires per year in the United States, and the average size (by acres of affected land) of those fires per year. We included these specific information because we wanted to see the relationships between land temperature, number of wildfires and its size, and how that affects the air quality in the United States.
 
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
+From this table, we see that land temperature in North America has been overall rising. It is a bit difficult to tell if the number of wildfires are definitively increasing or not, but it is clear that size of these fires are growing much larger. Prior to 2011, very few years had a mean_size of 2000 or larger; there are a total of 4 such cases from 1992-2010. However from 2011-2015, 4 out of 5 of those years had a mean_size of 2000 or larger. Despite the mean_size growing larger, there does not seem to be a significant change in the aqi, however the slight increase does indicate that the air quality has gotten slightly worse.
+
+## Charts
+### Chart 1: Bar Chart of Mean AQI per Year
+```{r first chart,echo=FALSE, message=FALSE}
+source('../source/first_chart.R')
+plot(bar_chart)
 ```
 
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
+We wanted to observe how the air quality in the United States is changing and what trends exists. From this chart, we see that the mean air quality index (AQI) in the United States is rising over time. The AQI measurements corresponds lower numbers with a better air quality, and a higher number with worse air quality. Seeing that the mean AQI has generally increased over the years, except for the anomaly in 2015, we can conclude that the air quality in the United States has been worsening.
+
+### Chart 2: Pie Chart of the Causes of Wildires in the United States
+```{r second chart,echo=FALSE, message=FALSE}
+source('../source/second_chart.R')
+plot(pie)
 ```
 
-> `r msg` Hope you have a good day!! 
+We included this chart because we were interested in what the main causes for wildfires are. It is important to know what the causes are as it can help us tailor solutions to help prevent wildfires being created from those major causes. From this pie chart, we see that debris burning most wildfires are caused by debris burning, followed closely by arson, lightning, and miscellaneous reasons, where all 3 causes are quite close in number. 
 
-## ABOUT THIS FILE: 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+### Chart 3: Scatterplot of Mean AQI per Year vs. Number of Wildfires per Year
+```{r third chart,echo=FALSE, message=FALSE}
+source('../source/third_chart.R')
+plot(scatterplot)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This chart was included because we wanted to see the relationship between the mean air quality index (AQI) per year and the number of wildfires per year as this relationship might reveal if and how much wildfires are affecting the air quality. From this scatterplot, we see that there isn't exactly a definitive relationship. There seems to be a **very** loose relationship between number of wildfires per year and the mean AQI of that year, where more wildfires means a higher AQI (worse air).
