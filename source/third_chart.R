@@ -4,15 +4,18 @@
 library(tidyverse)
 library(ggplot2)
 #reading in Air Quality data
-US_AQ <- read.csv("US_AQI.csv")
+US_AQ <- list.files(path = "../data/aqi_data",
+                  pattern = "*.csv", full.names = TRUE) %>%
+  lapply(read_csv) %>%
+  bind_rows 
 #reading in random sample of wildfire data
-wildfire <- read.csv("FW_Veg_Rem_Combined.csv")
+wildfire <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
 
 getwd()
 
 #filter AQ to 1992 and above
 US_AQ <- US_AQ %>%
- filter(Date > "1991-12-31" & Date < "2016 -01-01")
+ filter(Date > "1991-12-31" & Date < "2016-01-01")
 
 
 # creating year column
@@ -49,13 +52,13 @@ scatterplot <- plot_data %>%
   labs(title="The Effect of the Number of Wildfires on Mean Air Quality Index in the U.S.", 
        x="Number of Wildfires per Year in the US", 
        subtitle = "*Number of wildfires is based off of a random sampling ", 
-       y="Mean Air Quality Index")+
+       y="Mean Air Quality Index") +
   geom_text(aes(label = Year1), 
             size = 2.5, 
             position = position_dodge(width = 1),
             vjust = -0.8, hjust = 1)
 
-plot(scatterplot)
+#plot(scatterplot)
 
 
 
