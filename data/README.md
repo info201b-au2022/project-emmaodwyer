@@ -1,12 +1,13 @@
-# The `\data` Directory: Project Data Summary 
+# The `\data` Directory: Project Data Summary
 
 In our project, we use the following data files and Application Programming Interfaces:
 
 ## Data files (TODO: Update/delete for your PROJECT)
 |Data File Name | Brief Description|
 |---------------| -----------------|
-|[example.cvs](./example.csv) | This file contains temperature data. (See report for details.)
-|[another-file](./filename2.csv) | Description ... 
+|[Air quality](https://www.kaggle.com/datasets/383fd6c01526595f6446edb3a19352967a4343e2025ccdd40b40aa7b6c241801?select=US_AQI.csv)| Holds information on the air quality in the U.S. since 1980. Includes information on the AQI, date, state, and other attributes. <br /> **Note:** Dataset is too large to be included as a file, instead it is hyperlinked to the dataset's source.
+|[FW_Veg_Rem_combined.cvs](./FW_Veg_Rem_combined.csv) | 50,000 randomized fires from a database of 1.8 million fires. Includes fire name, fire size, cause, location, date it started, and many other attributes.
+|[1910-2022.csv](./1910-2022.csv) | U.S. Land temperature anomalies recorded in Celsius for every September from 1910-2022.
 
 ## Application Programming Interfaces (API) (TODO: Update/delete for your PROJECT)
 
@@ -19,6 +20,6 @@ Sellers lists and the books that have been reviewed in the New York Times. An ov
 * Edit this `README.md` file and summarize your data files
 * If you are using APIs to access data, summarize them, providing specific information
 * See examples above.
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore, 
+* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore,
 aim for clarity and conciseness.
 * When done, be sure to delete these NOTE sections and the example CSV file (which are intended for you, of course, not your audience!)
