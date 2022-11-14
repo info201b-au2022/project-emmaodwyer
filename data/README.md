@@ -2,10 +2,15 @@
 
 In our project, we use the following data files and Application Programming Interfaces:
 
-## Data files (TODO: Update/delete for your PROJECT)
+## Data files:
 |Data File Name | Brief Description|
 |---------------| -----------------|
-|[Air quality](https://www.kaggle.com/datasets/383fd6c01526595f6446edb3a19352967a4343e2025ccdd40b40aa7b6c241801?select=US_AQI.csv)| Holds information on the air quality in the U.S. since 1980. Includes information on the AQI, date, state, and other attributes. <br /> **Note:** Dataset is too large to be included as a file, instead it is hyperlinked to the dataset's source.
+|[Good.csv](./aqi_data/Good.csv)| All rows from the AQI dataset where category = "Good" <br /> **Note:** Original ataset is too large to be included as a file, it was instead broken down to several .csv files.
+|[Hazardous.csv](./aqi_data/Hazardous.csv)| All rows from the AQI dataset where category = "Hazardous"
+|[Moderate.csv](./aqi_data/Moderate.csv)| All rows from the AQI dataset where category = "Moderate"
+|[Unhealthy_for_Sensitive_Groups.csv](./aqi_data/Unhealthy_for_Sensitive_Groups.csv)| All rows from the AQI dataset where category = "Unhealthy for Sensitive Groups"
+|[Unhealthy.csv](./aqi_data/Unhealthy.csv)| All rows from the AQI dataset where category = "Unhealthy"
+|[Very_Unhealthy.csv](./aqi_data/Very_Unhealthy.csv)| All rows from the AQI dataset where category = "Very Unhealthy"
 |[FW_Veg_Rem_combined.cvs](./FW_Veg_Rem_combined.csv) | 50,000 randomized fires from a database of 1.8 million fires. Includes fire name, fire size, cause, location, date it started, and many other attributes.
 |[1910-2022.csv](./1910-2022.csv) | U.S. Land temperature anomalies recorded in Celsius for every September from 1910-2022.
 
