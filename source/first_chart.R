@@ -17,26 +17,19 @@ US_AQI <- US_AQI %>%
 US_AQI <- US_AQI %>%
   mutate(Year = format(as.Date(Date, format="%Y-%m-%d"),"%Y"))
 
-# extract year
-year <- table(US_AQI$Year)
-View(year)
-
-#making year into dataframe
-year_df <- as.data.frame(year)
-View(year_df)
-
 # find mean AQI by year
 US_AQI_mean <- US_AQI %>%
   group_by(Year) %>%
   summarise_at(vars(AQI), list(mean_aqi_per_year = mean))
+View(US_AQI_mean)
 
-# gathering data
-data <- data.frame("num" = year_df$Freq, "year" = US_AQI_mean$Year)
-  View(data)
-  
+# making "US_AQI_mean" into dataframe
+mean_df <- as.data.frame(US_AQI_mean)
+View(mean_df)
+
 # bar chart of mean AQI by year 
 bar_chart <- 
-  ggplot(data, aes(x=year, y=num))+
+  ggplot(mean_df, aes(x=Year, y=mean_aqi_per_year))+
   geom_bar(width = 1, stat = "identity") 
 bar_chart
 
