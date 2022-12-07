@@ -31,10 +31,9 @@ tab_panel_chart3 <-tabPanel(
           The y-axis is the AQI. Users of the application can select to view this 
           data for specific states or for the whole of the U.S using the widget above.", 
           br(), br(), 
-          "Looking at the whole of the U.S, we can see that there is a weak relationship 
+          "Looking at the whole of the U.S, we can see that there is a weak positive relationship 
           between the number of wildfires per year and the mean AQI for that year,
-          which is that more wildfires results in a higher AQI (worse air quality).
-          When looking at select states such as ...")
+          which is that more wildfires results in a higher AQI (worse air quality).")
      
          ),
         
