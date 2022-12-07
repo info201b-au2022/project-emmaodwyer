@@ -1,8 +1,6 @@
-# source file that creates second chart
-
-# loading packages 
-library("tidyverse")
+library(tidyverse)
 library(ggplot2)
+library(plotly)
 
 # loading data 
 wildfires <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
@@ -17,13 +15,15 @@ causes_df <- causes_df %>%
   select("cause" = Var1, "num_of_causes" = Freq)
 
 # proportion of causes of wildfires pie chart 
-pie <-  
-  ggplot(causes_df, aes(x="", y=num_of_causes, fill=cause)) +
-  geom_bar(stat="identity", width=1, color = "white") +
-  labs(title="The Proportion of Different Causes of Wildfires in the United States") +
-  coord_polar(theta = "y", start=0) +
-  theme_void()
-pie
+fig <- plot_ly() 
+fig <- fig %>%
+  add_trace(
+    type = "pie",
+    name = "",
+    values = c(causes_df$num_of_causes),
+    labels = c(causes_df$cause),
+    text = c("Arson", "Campfire", "Children", "Debris Buring", "Equipment Use", "Fireworks", "Lighting", "Miscellaneous", "Unidentified", "Powerline", "Railroad", "Smoking", "Structure"),
+    hovertemplate = "%{label}: <br>Popularity: %{percent} </br> %{text}")
 
-#plot(pie)
 
+fig
