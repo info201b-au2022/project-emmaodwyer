@@ -19,7 +19,7 @@ tab_panel_chart3 <-tabPanel(
     sidebarLayout(
       sidebarPanel(
         selectInput(
-          inputId ="state", label = h4("State"), choices = states, selected = "United States"
+          inputId ="state2", label = h4("State"), choices = states, selected = "United States"
         ),
         h4("Number of Wildfires and Average Air Quality Index per Year"),
         

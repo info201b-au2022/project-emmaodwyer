@@ -110,27 +110,27 @@ server <- function(input, output) {
     # creating the scatterplot
     # condensing all states to get whole country data
     #for AQI
-    if (input$state == "United States") {
+    if (input$state2 == "United States") {
       filtered_AQI <- US_AQI %>%
         group_by(Year) %>%
         summarize(Mean = mean(Mean, na.rm=TRUE))
     } else {
       # filtering to user selected state
       filtered_AQI <- US_AQI %>%
-        filter(state_name == input$state)
+        filter(state_name == input$state2)
     }
     
     
     # condensing all states to get whole country data
     #for number of wildfires
-    if (input$state == "United States") {
+    if (input$state2 == "United States") {
       filtered_wildfire <- wildfire_by_year %>%
         group_by(Year) %>%
         summarize(count_fires = n())
     } else {
       # filtering to user selected state
       filtered_wildfire <- wildfire_by_year %>%
-        filter(state_full_names == input$state)
+        filter(state_full_names == input$state2)
     }
     
     plot_data <- merge(filtered_AQI, filtered_wildfire, by = "Year")
@@ -138,7 +138,7 @@ server <- function(input, output) {
     scatterplot <- plot_data %>%
       ggplot(aes(x = count_fires, y = Mean ))+
       geom_point(size = 3, colour = "steelblue") +
-      labs(title = paste0("The Effect of the Number of Wildfires on Mean Air Quality Index in ", input$state), 
+      labs(title = paste0("The Effect of the Number of Wildfires on Mean Air Quality Index in ", input$state2), 
            x = "Number of Wildfires in a Year", 
            y = "Mean Air Quality Index")
       
