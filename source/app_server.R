@@ -33,18 +33,20 @@ US_AQI <- US_AQI %>%
   summarize(Mean = mean(AQI, na.rm=TRUE))
 
 
-# Code for chart 3 -------------------------------------
+# Code for chart 3 --------------------------------------------------------------
 #Using US_AQI from above also
 wildfire <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
 
 # find number of wildfires per year (from random sample of total data)
 wildfire <- wildfire %>%
-  mutate(Year1 = format(as.Date(disc_clean_date, format = "%m/%d/%Y"), "%Y")) 
+  mutate(Year = format(as.Date(disc_clean_date, format = "%m/%d/%Y"), "%Y")) 
 
 wildfire_by_year <- wildfire %>%
-  group_by(state, Year1) %>%
+  group_by(state, Year) %>%
   summarise(count_fires = n())
 
+# Binding state abbreviations and full state names together to be able
+# to merge the AQI and wildfire data
 state_full_names <- c("Alabama","Alaska","Arizona","Arkansas", "California",
                 "Colorado","Connecticut","Delaware","District of Columbia",
                 "Florida","Georgia","Hawaii","Idaho","Illinois","Indiana",
@@ -56,12 +58,21 @@ state_full_names <- c("Alabama","Alaska","Arizona","Arkansas", "California",
                 "Rhode Island","South Carolina","South Dakota","Tennessee","Texas", "Utah",
                 "Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming")
 
-state_ids <- c("AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", 
+state <- c("AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", 
                "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", 
                "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", 
                "NY", "NC", "ND", "OH", "OK","OR", "PA", "PR", "RI", "SC", "SD", 
                "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY")
-state_info <- cbind(state_full_names, state_ids)
+state_info <- cbind(state_full_names, state)
+
+# adding state name to wildfire data
+wildfire_by_year <- merge(wildfire_by_year, state_info, by = "state" )
+------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
 
@@ -113,19 +124,19 @@ server <- function(input, output) {
     # condensing all states to get whole country data
     #for number of wildfires
     if (input$state == "United States") {
-      filtered_wildfire <- wildfire %>%
+      filtered_wildfire <- wildfire_by_year %>%
         group_by(Year) %>%
-        summarize(Count = n())
+        summarize(count_fires = n())
     } else {
       # filtering to user selected state
-      filtered_wildfire <- wildfire %>%
-        filter(state_name == input$state)
+      filtered_wildfire <- wildfire_by_year %>%
+        filter(state_full_names == input$state)
     }
     
-    plot_data <- cbind(filtered_AQI, filtered_wildfire)
+    plot_data <- merge(filtered_AQI, filtered_wildfire, by = "Year")
     
-    scatterplot <- filtered %>%
-      ggplot(aes(x = Count, y = mean_aqi ))+
+    scatterplot <- plot_data %>%
+      ggplot(aes(x = count_fires, y = Mean ))+
       geom_point(size = 3, colour = "steelblue") +
       labs(title = paste0("The Effect of the Number of Wildfires on Mean Air Quality Index in ", input$state), 
            x = "Number of Wildfires in a Year", 
