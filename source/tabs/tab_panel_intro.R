@@ -4,6 +4,8 @@ library(shiny)
 
 tab_panel_intro <-tabPanel(
   "Introduction",
+  h3("Introduction"),
+  br(),
   p("With the rise of wildfires in the United States, 
       air quality has been affected. While short exposure 
       to air pollution can cause irritation in the eyes, nose, 
