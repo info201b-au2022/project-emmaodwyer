@@ -24,7 +24,7 @@ ui <- navbarPage(
   header = list(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
-    HTML("... Project Header... "),
+    HTML(""),
     hr()
   ),
 
@@ -32,7 +32,7 @@ ui <- navbarPage(
   footer = list(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
-    HTML("... Project Footer ... "),
+    HTML("U.S. Air Quality | Final Deliverable |Info 201 Autumn 2022 | Thanh Ly, Jennifer Gomez, Cole Meier, Emma O'Dwyer"),
     hr()
   ),
 
