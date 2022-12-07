@@ -1,6 +1,8 @@
 # tab_panel_chart1
 
 library(shiny)
+library(tidyverse)
+library(plotly)
 # loading data set
 US_AQI <- list.files(path = "../data/aqi_data",
                      pattern = "*.csv", full.names = TRUE) %>%

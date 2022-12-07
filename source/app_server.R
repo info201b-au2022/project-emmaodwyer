@@ -67,7 +67,7 @@ state_info <- cbind(state_full_names, state)
 
 # adding state name to wildfire data
 wildfire_by_year <- merge(wildfire_by_year, state_info, by = "state" )
-------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
 
 
 

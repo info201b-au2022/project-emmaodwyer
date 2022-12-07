@@ -1,7 +1,8 @@
 # tab_panel_chart2
 
 library(shiny)
-
+library(tidyverse)
+wildfires <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
 # finding number of duplicated causes 
 causes <- table(wildfires$stat_cause_descr)
 
