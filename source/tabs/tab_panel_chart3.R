@@ -38,6 +38,8 @@ tab_panel_chart3 <-tabPanel(
          ),
         
         mainPanel(
+          br(), 
+          br(), 
           plotlyOutput(outputId = "chart3")
       )
     )
