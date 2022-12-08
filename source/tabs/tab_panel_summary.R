@@ -52,10 +52,10 @@ tab_panel_summary <- tabPanel(
     p("As seen by selecting different states as input for the scatterplot, the 
       relationship between mean AQI and the number of wildfires in a year has no 
       consistent pattern across states."), 
-    img(src = 'Chart3.Arkansas.png'), 
+    img(src = 'Chart3.Arkansas.png', height = "60%", width = "60%"), 
     p("The scatterplot above shows that there is a strong positive relationship
       between mean AQI and the number of wildfires in a year in the state of Arkansas.
       In comparison, the plot below shows that there is no evidence of a trend 
       between these two variables in Illinois."), 
-    img(src = 'Chart3.Illinois.png')
+    img(src = 'Chart3.Illinois.png', height = "60%", width = "60%")
 )
