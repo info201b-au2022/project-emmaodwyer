@@ -1,0 +1,14 @@
+name: Effects-of-Wildfire-on-Air-Quality
+title: Effects-of-Wildfire-on-Air-Quality
+username:
+account: tly3
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7850429
+bundleId: 6611924
+url: https://tly3.shinyapps.io/Effects-of-Wildfire-on-Air-Quality/
+when: 1670528372.10696
+lastSyncTime: 1670528372.10697
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|Aggregate_table.R|data_access.R|first_chart.R|README.md|second_chart.R|summary_info.R|summary_table.R|third_chart.R
