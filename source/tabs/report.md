@@ -38,11 +38,14 @@ Wildfire smokes are composed of a mixture of various pollutants and chemicals, w
 > **Climate Scientist Warn of a ‘Global Fire Crisis**
 According to a United Nations report, the risk of devastating wildfires will increase as climate change further intensifies. The United Nations report had named this the ‘global fire crisis’. It is estimated that with moderate global warming, the risk of catastrophic wildfires will increase by a third by 2050, and up to 52 percent by the end of the century.
 
-**NOTE:** the images are located in ```https://www.nytimes.com/interactive/2022/09/22/climate/wildfire-smoke-pollution.html```
+**NOTE:** the images are located in
 
-```https://www.epa.gov/wildfire-smoke-course/why-wildfire-smoke-health-concern```
+[https://www.nytimes.com/interactive/2022/09/22/climate/wildfire-smoke-pollution.html]
 
-```https://www.nytimes.com/2022/02/23/climate/climate-change-un-wildfire-report.html```
+[https://www.epa.gov/wildfire-smoke-course/why-wildfire-smoke-health-concern]
+
+[https://www.nytimes.com/2022/02/23/climate/climate-change-un-wildfire-report.html]
+
 
 **Human Values:** As humans, we are concerned with the safety, well-being, and health of ourselves, our loved ones, and the environment we live in. As students who believe in civic responsibility and environmental justice, this project allows us to play a role in protecting the world we live in through finding trends and building models on a topic that has long-lasting and severe consequences for us and for future generations. 
 
