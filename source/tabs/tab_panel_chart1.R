@@ -4,10 +4,11 @@ library(shiny)
 library(tidyverse)
 library(plotly)
 # loading data set
-US_AQI <- list.files(path = "../data/aqi_data",
-                     pattern = "*.csv", full.names = TRUE) %>%
-  lapply(read_csv) %>%
-  bind_rows 
+US_AQI <- rbind(read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/aqi_data/Good.csv"), read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/aqi_data/Hazardous.csv"))
+US_AQI <- rbind(US_AQI, read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/aqi_data/Moderate.csv"))
+US_AQI <- rbind(US_AQI, read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/aqi_data/Unhealthy.csv"))
+US_AQI <- rbind(US_AQI, read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/aqi_data/Unhealthy_for_Sensitive_Groups.csv"))
+US_AQI <- rbind(US_AQI, read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/aqi_data/Very_Unhealthy.csv"))
 
 states <- unique(US_AQI$state_name)
 states <- append(states, "United States")
