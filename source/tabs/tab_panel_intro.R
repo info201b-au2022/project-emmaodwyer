@@ -20,5 +20,5 @@ tab_panel_intro <-tabPanel(
       air quality average per year and comparing it to the number of wildfires 
       per year, and the cause of a wildfire looking at the specific causes and 
       the proportion of each cause."),
-  img(src='wildfires.jpeg')
+  img(src='wildfires.jpeg', height = "85%", width = "85%")
 )
