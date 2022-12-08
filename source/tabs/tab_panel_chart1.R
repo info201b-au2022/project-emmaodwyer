@@ -37,6 +37,8 @@ tab_panel_chart1 <-tabPanel(
           gotten better.")
       ),
       mainPanel(
+        br(), 
+        br(),
         plotlyOutput(outputId = "chart1")
       )
     )
