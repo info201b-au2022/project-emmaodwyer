@@ -13,11 +13,11 @@ tab_panel_report <-tabPanel(
     ),
     column(
       3,
-      p("This is a paragraph.")
+      p("")
     ),
     column(
       3,
-      p("Rightmost column.")
+      p("Code Name - wildfire")
     )
   )
 
