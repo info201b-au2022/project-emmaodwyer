@@ -29,6 +29,23 @@ tab_panel_summary <- tabPanel(
     
     br(),
     
+    #summary for Chart 2
+    h4("Cause of Wildfires in the United States"),
+    p("Showed in the charts, the major changes seen in the causes of wildfires are 
+      due to human activity changing over time. For an example, in 1991, a major 
+      source of wildfire was railroads, in 2015 however, the proportion of wildfires 
+      started by railroads is less than one percent. This is due to the alteration of 
+      human behavior, because railroads are not utalized at the same rate. 
+      One of the major causes that remained was the burning of debris."),
+    img(src = '1991piechart.png'),
+    p("This is the pie chart of all of the causes of wildfires in 1991.
+      As seen in the pie chart, the major contributions are arson, debris burning, and railroads."),
+    img(src = '2015piechart.png'),
+    p("This is the pie chart of all of the causes of wildfires in 2015, 
+      the major contributions are lightning, debris burning, and miscellenious activity"),
+    
+    br(),
+    
     # summary for Chart 3 
     
     h4("Number of Wildfires and Air Quality"), 
