@@ -3,6 +3,13 @@
 library(shiny)
 library(tidyverse)
 
+# data for chart 2
+wildfires <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
+causes <- table(wildfires$stat_cause_descr, year = wildfires$disc_pre_year)
+causes_df <- as.data.frame(causes)
+causes_df <- causes_df %>%
+  select(year, "cause" = Var1, "num_of_causes" = Freq)
+
 tab_panel_chart2 <- tabPanel(
   "Pie Chart of the Causes of the Wildfires in the United States",
   sidebarLayout(
