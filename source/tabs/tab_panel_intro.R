@@ -22,3 +22,5 @@ tab_panel_intro <-tabPanel(
       the proportion of each cause."),
   img(src='wildfires.jpeg', height = "85%", width = "85%")
 )
+
+

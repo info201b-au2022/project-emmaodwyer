@@ -3,15 +3,19 @@
 #load packages
 library(tidyverse)
 library(ggplot2)
+
+setwd("C:\\Users\\emmao\\Documents\\INFO201\\Project\\project-emmaodwyer")
+
 #reading in Air Quality data
 US_AQ <- list.files(path = "../data/aqi_data",
                   pattern = "*.csv", full.names = TRUE) %>%
   lapply(read_csv) %>%
   bind_rows 
+
 #reading in random sample of wildfire data
 wildfire <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
 
-getwd()
+
 
 #filter AQ to 1992 and above
 US_AQ <- US_AQ %>%
