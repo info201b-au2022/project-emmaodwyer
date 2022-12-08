@@ -35,13 +35,10 @@ US_AQI <- US_AQI %>%
 # Code for chart 2 -----------------------------------------
 # get data for chart 2
 wildfires <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-emmaodwyer/main/data/FW_Veg_Rem_Combined.csv")
-# finding number of duplicated causes 
-causes <- table(wildfires$stat_cause_descr)
-
-# making 'causes' a dataframe 
+causes <- table(wildfires$stat_cause_descr, year = wildfires$disc_pre_year)
 causes_df <- as.data.frame(causes)
 causes_df <- causes_df %>%
-  select("cause" = Var1, "num_of_causes" = Freq)
+  select(year, "cause" = Var1, "num_of_causes" = Freq)
 
 # Code for chart 3 --------------------------------------------------------------
 #Using US_AQI from above also
@@ -113,15 +110,18 @@ server <- function(input, output) {
   
   #code for chart 2 output ------------------------------------
   output$chart2 <- renderPlotly({
-    chart2 <- chart2 <- plot_ly()
-  chart2 <- chart2 %>%
-    add_trace(
-      type = "pie",
-      name = "",
-      values = c(causes_df$num_of_causes),
-      labels = c(causes_df$cause),
-      text = c("Arson", "Campfire", "Children", "Debris Buring", "Equipment Use", "Fireworks", "Lighting", "Miscellaneous", "Unidentified", "Powerline", "Railroad", "Smoking", "Structure"),
-      hovertemplate = "%{label}: <br>Popularity: %{percent} </br> %{text}")
+    
+    select_year_df <- causes_df %>% filter(year == input$selectedyear) %>% select(cause, num_of_causes)
+    
+    chart2 <- plot_ly()
+    chart2 <- chart2 %>%
+      add_trace(
+        type = "pie",
+        name = "",
+        values = c(select_year_df$num_of_causes),
+        labels = c(select_year_df$cause),
+        text = c("Arson", "Campfire", "Children", "Debris Buring", "Equipment Use", "Fireworks", "Lighting", "Miscellaneous", "Unidentified", "Powerline", "Railroad", "Smoking", "Structure"),
+        hovertemplate = "%{label}: <br>Popularity: %{percent} </br> %{text}")
   })
   
   #code for chart 3 output ------------------------------------
